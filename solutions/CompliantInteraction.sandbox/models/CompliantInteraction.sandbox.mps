@@ -8,17 +8,9 @@
   <imports />
   <registry>
     <language id="2f1590a7-be3b-42ac-86c9-c109178e746f" name="World">
-      <concept id="4768062446004809808" name="World.structure.Position_As_xyz" flags="ng" index="aPbZo">
-        <child id="4768062446004809810" name="x" index="aPbZq" />
-        <child id="4768062446004809811" name="y" index="aPbZr" />
-        <child id="4768062446004809812" name="z" index="aPbZs" />
-      </concept>
       <concept id="4768062446004967317" name="World.structure.BodyFromURDF" flags="ng" index="baxwt" />
       <concept id="4768062446004974197" name="World.structure.BodyFromFile" flags="ng" index="bazRX">
         <property id="4768062446004974198" name="file" index="bazRY" />
-      </concept>
-      <concept id="4768062446005133525" name="World.structure.FrameRef" flags="ng" index="bbUXt">
-        <reference id="4768062446005133526" name="ref" index="bbUXu" />
       </concept>
       <concept id="7247560412587131686" name="World.structure.Cube" flags="ng" index="2GT0bH">
         <child id="7247560412587144010" name="size_y" index="2GT3a1" />
@@ -45,16 +37,15 @@
         <child id="7247560412587182503" name="frame_origin" index="2GTsxG" />
         <child id="7247560412587182501" name="frame_com" index="2GTsxI" />
       </concept>
-      <concept id="8500052955290191772" name="World.structure.Quaternion_As_wxyz" flags="ng" index="3pSCqW">
-        <child id="8500052955290191776" name="qw" index="3pSCq0" />
-        <child id="8500052955290191777" name="qx" index="3pSCq1" />
-        <child id="8500052955290191778" name="qy" index="3pSCq2" />
-        <child id="8500052955290191779" name="qz" index="3pSCq3" />
-      </concept>
       <concept id="8500052955290136045" name="World.structure.Pose_As_PositionAndQuaternion" flags="ng" index="3pTqNd">
         <reference id="4768062446004923030" name="reference" index="baQku" />
-        <child id="4768062446004809963" name="pos" index="aPbXz" />
-        <child id="8500052955290191963" name="quat" index="3pSC_V" />
+        <child id="7630599593881669767" name="rx" index="21qWlx" />
+        <child id="7630599593881669761" name="tz" index="21qWlB" />
+        <child id="7630599593881669774" name="ry" index="21qWlC" />
+        <child id="7630599593881669782" name="rz" index="21qWlK" />
+        <child id="7630599593881669749" name="tx" index="21qWmj" />
+        <child id="7630599593881669756" name="ty" index="21qWmq" />
+        <child id="7630599593881669752" name="rw" index="21qWmu" />
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -79,72 +70,65 @@
   <node concept="ULbc8" id="496x6PSwA7M">
     <property role="TrG5h" value="FirstWorld" />
     <property role="2BUcBB" value="-1" />
-    <node concept="ULbc9" id="496x6PSwAHM" role="ULbc3">
+    <node concept="ULbc9" id="6B_lurCAvZS" role="ULbc3">
       <property role="TrG5h" value="frame1" />
-      <property role="ULeZE" value="12" />
-      <node concept="3pTqNd" id="7nQgi2G5hAE" role="3pTqNb">
-        <ref role="baQku" node="6ikwsJ8sfSn" resolve="origin" />
-        <node concept="3pSCqW" id="7nQgi2G5hAO" role="3pSC_V">
-          <node concept="3b6qkQ" id="48FzSx90ps5" role="3pSCq0">
-            <property role="$nhwW" value="1.0" />
-          </node>
-          <node concept="3b6qkQ" id="48FzSx90psa" role="3pSCq1">
-            <property role="$nhwW" value="0.0" />
-          </node>
-          <node concept="3b6qkQ" id="48FzSx90psf" role="3pSCq2">
-            <property role="$nhwW" value="0.0" />
-          </node>
-          <node concept="3b6qkQ" id="48FzSx90psk" role="3pSCq3">
-            <property role="$nhwW" value="0.0" />
-          </node>
+      <property role="ULeZE" value="1" />
+      <node concept="3pTqNd" id="6B_lurCAw04" role="3pTqNb">
+        <ref role="baQku" node="6B_lurCAvYj" resolve="frame2" />
+        <node concept="3b6qkQ" id="6B_lurCHvZO" role="21qWmj">
+          <property role="$nhwW" value="0.0" />
         </node>
-        <node concept="aPbZo" id="48FzSx90eDQ" role="aPbXz">
-          <node concept="3b6qkQ" id="48FzSx90mBN" role="aPbZq">
-            <property role="$nhwW" value="0.0" />
-          </node>
-          <node concept="3b6qkQ" id="48FzSx90prV" role="aPbZr">
-            <property role="$nhwW" value="0.0" />
-          </node>
-          <node concept="3b6qkQ" id="48FzSx90ps0" role="aPbZs">
-            <property role="$nhwW" value="1.0" />
-          </node>
+        <node concept="3b6qkQ" id="6B_lurCHvZW" role="21qWmq">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="6B_lurCHw04" role="21qWlB">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="6B_lurCHw0c" role="21qWmu">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="6B_lurCHw0h" role="21qWlx">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6B_lurCHw0p" role="21qWlC">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6B_lurCHw0x" role="21qWlK">
+          <property role="$nhwW" value="0.0" />
         </node>
       </node>
     </node>
-    <node concept="ULbc9" id="48FzSx90psU" role="ULbc3">
+    <node concept="ULbc9" id="6B_lurCAvYj" role="ULbc3">
       <property role="TrG5h" value="frame2" />
-      <node concept="3pTqNd" id="48FzSx90pta" role="3pTqNb">
-        <ref role="baQku" node="496x6PSwAHM" resolve="frame1" />
-        <node concept="aPbZo" id="48FzSx90ptg" role="aPbXz">
-          <node concept="3b6qkQ" id="48FzSx90ptu" role="aPbZq">
-            <property role="$nhwW" value="1.0" />
-          </node>
-          <node concept="3b6qkQ" id="48FzSx90ptz" role="aPbZr">
-            <property role="$nhwW" value="0.0" />
-          </node>
-          <node concept="3b6qkQ" id="48FzSx90ptC" role="aPbZs">
-            <property role="$nhwW" value="0.0" />
-          </node>
+      <property role="ULeZE" value="9" />
+      <node concept="3pTqNd" id="6B_lurCAvYL" role="3pTqNb">
+        <ref role="baQku" node="6ikwsJ8sfSn" resolve="origin" />
+        <node concept="3b6qkQ" id="6B_lurCHw0D" role="21qWmj">
+          <property role="$nhwW" value="0.0" />
         </node>
-        <node concept="3pSCqW" id="48FzSx90ptH" role="3pSC_V">
-          <node concept="3b6qkQ" id="48FzSx90ptY" role="3pSCq0">
-            <property role="$nhwW" value="1.0" />
-          </node>
-          <node concept="3b6qkQ" id="48FzSx90pu3" role="3pSCq1">
-            <property role="$nhwW" value="0.0" />
-          </node>
-          <node concept="3b6qkQ" id="48FzSx90pu8" role="3pSCq2">
-            <property role="$nhwW" value="0.0" />
-          </node>
-          <node concept="3b6qkQ" id="48FzSx90pud" role="3pSCq3">
-            <property role="$nhwW" value="0.0" />
-          </node>
+        <node concept="3b6qkQ" id="6B_lurCHw0I" role="21qWmq">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6B_lurCHw0Q" role="21qWlB">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6B_lurCHw0Y" role="21qWmu">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="6B_lurCHw16" role="21qWlx">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6B_lurCHw1e" role="21qWlC">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6B_lurCHw1m" role="21qWlK">
+          <property role="$nhwW" value="0.0" />
         </node>
       </node>
     </node>
     <node concept="ULbc9" id="6ikwsJ8sfSn" role="2GT3zG">
       <property role="TrG5h" value="origin" />
-      <property role="ULeZE" value="-1" />
+      <property role="ULeZE" value="2" />
       <property role="2GTq$4" value="true" />
     </node>
     <node concept="2GT0bH" id="6ikwsJ8spqk" role="ULbc1">
@@ -178,8 +162,29 @@
       <node concept="ULbc9" id="48FzSx90xyt" role="2GTsxG">
         <property role="TrG5h" value="frame_obj1_origin" />
         <property role="ULeZE" value="-1" />
-        <node concept="bbUXt" id="48FzSx91bfg" role="3pTqNb">
-          <ref role="bbUXu" node="6ikwsJ8sfSn" resolve="origin" />
+        <node concept="3pTqNd" id="6B_lurCHvqx" role="3pTqNb">
+          <ref role="baQku" node="6ikwsJ8sfSn" resolve="origin" />
+          <node concept="3b6qkQ" id="6B_lurCHvqy" role="21qWmj">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6B_lurCHvqz" role="21qWmq">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6B_lurCHvq$" role="21qWlB">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6B_lurCHvq_" role="21qWmu">
+            <property role="$nhwW" value="1.0" />
+          </node>
+          <node concept="3b6qkQ" id="6B_lurCHvqA" role="21qWlx">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6B_lurCHvqB" role="21qWlC">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6B_lurCHvqC" role="21qWlK">
+            <property role="$nhwW" value="0.0" />
+          </node>
         </node>
       </node>
     </node>
