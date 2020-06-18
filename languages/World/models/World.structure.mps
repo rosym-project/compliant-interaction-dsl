@@ -451,5 +451,29 @@
       <ref role="PrY4T" node="7nQgi2G4YRJ" resolve="IPoseType" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7gT3wao4ZtT">
+    <property role="EcuMT" value="8374740386376316793" />
+    <property role="TrG5h" value="BodyFromPythonSmartObject" />
+    <property role="3GE5qa" value="physical" />
+    <ref role="1TJDcQ" node="496x6PSwzeX" resolve="Body" />
+    <node concept="1TJgyi" id="7gT3wao4ZtU" role="1TKVEl">
+      <property role="IQ2nx" value="8374740386376316794" />
+      <property role="TrG5h" value="fixed_base" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="7gT3wao4Zuo" role="PzmwI">
+      <ref role="PrY4T" node="7gT3wao4Zum" resolve="BodyFromPythonClass" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7gT3wao4Zum">
+    <property role="EcuMT" value="8374740386376316822" />
+    <property role="3GE5qa" value="physical" />
+    <property role="TrG5h" value="BodyFromPythonClass" />
+    <node concept="1TJgyi" id="7gT3wao4Zun" role="1TKVEl">
+      <property role="IQ2nx" value="8374740386376316823" />
+      <property role="TrG5h" value="classname" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

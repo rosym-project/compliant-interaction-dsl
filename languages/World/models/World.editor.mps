@@ -600,5 +600,30 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="7gT3wao4Zu4">
+    <property role="3GE5qa" value="physical" />
+    <ref role="1XX52x" to="t5d6:7gT3wao4ZtT" resolve="BodyFromPythonSmartObject" />
+    <node concept="3EZMnI" id="7gT3wao4Zu6" role="2wV5jI">
+      <node concept="3F0ifn" id="7gT3wao4Zu7" role="3EZMnx">
+        <property role="3F0ifm" value="Body:" />
+      </node>
+      <node concept="3F0A7n" id="7gT3wao4Zu8" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="7gT3wao4Zu9" role="3EZMnx">
+        <property role="3F0ifm" value="smart object:" />
+      </node>
+      <node concept="3F0A7n" id="7gT3wao4Zua" role="3EZMnx">
+        <ref role="1NtTu8" to="t5d6:7gT3wao4Zun" resolve="classname" />
+      </node>
+      <node concept="l2Vlx" id="7gT3wao4Zub" role="2iSdaV" />
+      <node concept="3F0ifn" id="7gT3wao4Zuc" role="3EZMnx">
+        <property role="3F0ifm" value="at" />
+      </node>
+      <node concept="PMmxH" id="7gT3wao4Zud" role="3EZMnx">
+        <ref role="PMmxG" node="48FzSx92kGG" resolve="Body_Origin_Frame_EditorComponent" />
+      </node>
+    </node>
+  </node>
 </model>
 
