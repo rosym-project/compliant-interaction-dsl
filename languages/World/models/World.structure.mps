@@ -68,19 +68,24 @@
     <property role="TrG5h" value="Body" />
     <property role="3GE5qa" value="physical" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2SHk79Aereh" role="1TKVEl">
+      <property role="IQ2nx" value="3327404151968215953" />
+      <property role="TrG5h" value="fixed_base" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="6ikwsJ8skA_" role="1TKVEi">
       <property role="IQ2ns" value="7247560412587182501" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="frame_com" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="496x6PSwzt$" resolve="Frame" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
     </node>
     <node concept="1TJgyj" id="6ikwsJ8skAB" role="1TKVEi">
       <property role="IQ2ns" value="7247560412587182503" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="frame_origin" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="496x6PSwzt$" resolve="Frame" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
     </node>
     <node concept="PrWs8" id="496x6PSwztB" role="PzmwI">
       <ref role="PrY4T" node="496x6PSwztA" resolve="IPhysicalEntity" />
@@ -91,31 +96,17 @@
   </node>
   <node concept="1TIwiD" id="496x6PSwzt$">
     <property role="EcuMT" value="4775650060581091172" />
-    <property role="TrG5h" value="Frame" />
+    <property role="TrG5h" value="NamedFrame" />
     <property role="3GE5qa" value="virtual" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7nQgi2G4YRF" role="1TKVEi">
-      <property role="IQ2ns" value="8500052955290136043" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="initialPose" />
-      <ref role="20lvS9" node="7nQgi2G4YRH" resolve="Pose_As_PositionAndQuaternion" />
-    </node>
-    <node concept="1TJgyi" id="6ikwsJ8sizf" role="1TKVEl">
-      <property role="IQ2nx" value="7247560412587174095" />
-      <property role="TrG5h" value="fixed" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="PrWs8" id="496x6PSwztE" role="PzmwI">
-      <ref role="PrY4T" node="496x6PSwztD" resolve="IVirtualEntity" />
-    </node>
-    <node concept="PrWs8" id="496x6PSwAHR" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
+    <ref role="1TJDcQ" node="2SHk79Aereo" resolve="Frame" />
     <node concept="1QGGSu" id="7nQgi2G4Cr3" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/coordinates.png" />
     </node>
     <node concept="t5JxF" id="7nQgi2G4QM1" role="lGtFl">
       <property role="t5JxN" value="Icons from https://www.flaticon.com/authors/smashicons by Smashicons" />
+    </node>
+    <node concept="PrWs8" id="2SHk79Aerfa" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="496x6PSwzt_">
@@ -152,7 +143,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="origin" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="496x6PSwzt$" resolve="Frame" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
     </node>
     <node concept="1TJgyj" id="496x6PSwB63" role="1TKVEi">
       <property role="IQ2ns" value="4775650060581106051" />
@@ -246,13 +237,13 @@
       <property role="IQ2ns" value="7247560412587172533" />
       <property role="20kJfa" value="source" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="496x6PSwzt$" resolve="Frame" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
     </node>
     <node concept="1TJgyj" id="6ikwsJ8siaR" role="1TKVEi">
       <property role="IQ2ns" value="7247560412587172535" />
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="496x6PSwzt$" resolve="Frame" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
     </node>
   </node>
   <node concept="1TIwiD" id="7nQgi2G4YRH">
@@ -313,7 +304,7 @@
       <property role="IQ2ns" value="4768062446004923030" />
       <property role="20kJfa" value="reference" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="496x6PSwzt$" resolve="Frame" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
     </node>
     <node concept="PrWs8" id="7nQgi2G4YRK" role="PzmwI">
       <ref role="PrY4T" node="7nQgi2G4YRJ" resolve="IPoseType" />
@@ -415,11 +406,6 @@
     <property role="TrG5h" value="BodyFromURDF" />
     <property role="3GE5qa" value="physical" />
     <ref role="1TJDcQ" node="496x6PSwzeX" resolve="Body" />
-    <node concept="1TJgyi" id="3XeAJG9fGdR" role="1TKVEl">
-      <property role="IQ2nx" value="4561753875555468151" />
-      <property role="TrG5h" value="fixed_base" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="PrWs8" id="48FzSx90r9S" role="PzmwI">
       <ref role="PrY4T" node="48FzSx90r9P" resolve="BodyFromFile" />
     </node>
@@ -445,7 +431,7 @@
       <property role="IQ2ns" value="4768062446005133526" />
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="496x6PSwzt$" resolve="Frame" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
     </node>
     <node concept="PrWs8" id="48FzSx9123o" role="PzmwI">
       <ref role="PrY4T" node="7nQgi2G4YRJ" resolve="IPoseType" />
@@ -456,11 +442,6 @@
     <property role="TrG5h" value="BodyFromPythonSmartObject" />
     <property role="3GE5qa" value="physical" />
     <ref role="1TJDcQ" node="496x6PSwzeX" resolve="Body" />
-    <node concept="1TJgyi" id="7gT3wao4ZtU" role="1TKVEl">
-      <property role="IQ2nx" value="8374740386376316794" />
-      <property role="TrG5h" value="fixed_base" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="PrWs8" id="7gT3wao4Zuo" role="PzmwI">
       <ref role="PrY4T" node="7gT3wao4Zum" resolve="BodyFromPythonClass" />
     </node>
@@ -473,6 +454,146 @@
       <property role="IQ2nx" value="8374740386376316823" />
       <property role="TrG5h" value="classname" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2SHk79Aeqn1">
+    <property role="EcuMT" value="3327404151968212417" />
+    <property role="TrG5h" value="SliceOfWorld" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="composition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2SHk79Aeqn7" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968212423" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="physicalEntities" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="496x6PSwztA" resolve="IPhysicalEntity" />
+    </node>
+    <node concept="1TJgyj" id="2SHk79Aeqn8" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968212424" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="virtualEntities" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="496x6PSwztD" resolve="IVirtualEntity" />
+    </node>
+    <node concept="1TJgyj" id="2SHk79Aeqna" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968212426" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="constraints" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="496x6PSwAXC" resolve="IGeometrical_WRONG_NAME_Constraint" />
+    </node>
+    <node concept="PrWs8" id="2SHk79Aeqn3" role="PzmwI">
+      <ref role="PrY4T" node="2SHk79Aeqn2" resolve="IInstantiatable" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2SHk79Aeqn2">
+    <property role="EcuMT" value="3327404151968212418" />
+    <property role="TrG5h" value="IInstantiatable" />
+    <property role="3GE5qa" value="composition" />
+    <node concept="PrWs8" id="2SHk79Aeqn5" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2SHk79Aereg">
+    <property role="EcuMT" value="3327404151968215952" />
+    <property role="TrG5h" value="BodyWithDynamics" />
+    <property role="3GE5qa" value="physical" />
+    <ref role="1TJDcQ" node="496x6PSwzeX" resolve="Body" />
+    <node concept="1TJgyj" id="2SHk79AeHau" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968289438" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="inertia" />
+      <ref role="20lvS9" node="2SHk79Aerej" resolve="Interia" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2SHk79Aerej">
+    <property role="EcuMT" value="3327404151968215955" />
+    <property role="3GE5qa" value="physical.dynamics" />
+    <property role="TrG5h" value="Interia" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2SHk79Aerem" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968215958" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="inertia_origin" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2SHk79Aereo" resolve="Frame" />
+    </node>
+    <node concept="1TJgyj" id="2SHk79AeI6D" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968293289" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="mass" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="1TJgyj" id="2SHk79AeI6G" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968293292" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ixx" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="1TJgyj" id="2SHk79AeI6P" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968293301" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ixy" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="1TJgyj" id="2SHk79AeI72" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968293314" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ixz" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="1TJgyj" id="2SHk79AeI7j" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968293331" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="iyy" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="1TJgyj" id="2SHk79AeI7C" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968293352" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="iyz" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="1TJgyj" id="2SHk79AeI81" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968293377" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="izz" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2SHk79Aereo">
+    <property role="EcuMT" value="3327404151968215960" />
+    <property role="TrG5h" value="Frame" />
+    <property role="3GE5qa" value="virtual" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2SHk79Aerep" role="1TKVEi">
+      <property role="IQ2ns" value="3327404151968215961" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="initialPose" />
+      <ref role="20lvS9" node="7nQgi2G4YRH" resolve="Pose_As_PositionAndQuaternion" />
+    </node>
+    <node concept="1TJgyi" id="2SHk79Aereq" role="1TKVEl">
+      <property role="IQ2nx" value="3327404151968215962" />
+      <property role="TrG5h" value="fixed" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="2SHk79Aerer" role="PzmwI">
+      <ref role="PrY4T" node="496x6PSwztD" resolve="IVirtualEntity" />
+    </node>
+    <node concept="1QGGSu" id="2SHk79Aeret" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/coordinates.png" />
+    </node>
+    <node concept="t5JxF" id="2SHk79Aereu" role="lGtFl">
+      <property role="t5JxN" value="Icons from https://www.flaticon.com/authors/smashicons by Smashicons" />
     </node>
   </node>
 </model>
