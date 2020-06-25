@@ -7,10 +7,6 @@
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="nlj3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typesystem.newTypesystem.structure(MPS.Core/)" />
-    <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
-    <import index="1oap" ref="r:03d44d4c-3d65-461c-9085-0f48e9569e59(jetbrains.mps.lang.resources.structure)" />
-    <import index="cewj" ref="r:cd13618c-02ad-4af8-a3e4-3414c58c4613(Kinematics.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -679,17 +675,94 @@
       <property role="1L1pqM" value="Artificial Constraint" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5cPIUTpZwoo">
-    <property role="EcuMT" value="5995904836422207000" />
-    <property role="TrG5h" value="MultiBodyFromRobotModel" />
-    <property role="3GE5qa" value="physical" />
-    <ref role="1TJDcQ" node="496x6PSwzeX" resolve="Body" />
-    <node concept="1TJgyj" id="5cPIUTpZwos" role="1TKVEi">
-      <property role="IQ2ns" value="5995904836422207004" />
-      <property role="20kJfa" value="robotmodel" />
+  <node concept="1TIwiD" id="4ejUrJLv1Ww">
+    <property role="EcuMT" value="4869492615537237792" />
+    <property role="3GE5qa" value="constraints.force" />
+    <property role="TrG5h" value="ForceConstraint" />
+    <node concept="1TJgyj" id="4ejUrJLvJjN" role="1TKVEi">
+      <property role="IQ2ns" value="4869492615537423603" />
+      <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="cewj:3Wmswgx0nyU" resolve="RobotModel" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
     </node>
+    <node concept="1TJgyj" id="4ejUrJLvJkV" role="1TKVEi">
+      <property role="IQ2ns" value="4869492615537423675" />
+      <property role="20kJfa" value="source" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
+    </node>
+    <node concept="1TJgyi" id="4ejUrJLvti$" role="1TKVEl">
+      <property role="IQ2nx" value="4869492615537349796" />
+      <property role="TrG5h" value="compare" />
+      <ref role="AX2Wp" node="4ejUrJLvtig" resolve="BinaryCompareEnum" />
+    </node>
+    <node concept="1TJgyj" id="4ejUrJLv8kc" role="1TKVEi">
+      <property role="IQ2ns" value="4869492615537263884" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="force" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="4ejUrJLvJjG" role="1TKVEi">
+      <property role="IQ2ns" value="4869492615537423596" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="axisX" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="1TJgyj" id="4ejUrJLvJjH" role="1TKVEi">
+      <property role="IQ2ns" value="4869492615537423597" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="axisY" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="1TJgyj" id="4ejUrJLvJjI" role="1TKVEi">
+      <property role="IQ2ns" value="4869492615537423598" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="axisZ" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="PrWs8" id="4ejUrJLvJjE" role="PzmwI">
+      <ref role="PrY4T" node="496x6PSwAXC" resolve="IMotionConstraint" />
+    </node>
+  </node>
+  <node concept="25R3W" id="4ejUrJLvtig">
+    <property role="3F6X1D" value="4869492615537349776" />
+    <property role="3GE5qa" value="datatypes" />
+    <property role="TrG5h" value="BinaryCompareEnum" />
+    <ref role="1H5jkz" node="4ejUrJLvtih" resolve="equals" />
+    <node concept="25R33" id="4ejUrJLvtih" role="25R1y">
+      <property role="3tVfz5" value="4869492615537349777" />
+      <property role="TrG5h" value="equals" />
+      <property role="1L1pqM" value="=" />
+    </node>
+    <node concept="25R33" id="4ejUrJLvtii" role="25R1y">
+      <property role="3tVfz5" value="4869492615537349778" />
+      <property role="TrG5h" value="greater" />
+      <property role="1L1pqM" value="&gt;" />
+    </node>
+    <node concept="25R33" id="4ejUrJLvtil" role="25R1y">
+      <property role="3tVfz5" value="4869492615537349781" />
+      <property role="TrG5h" value="greaterEqual" />
+      <property role="1L1pqM" value="&gt;=" />
+    </node>
+    <node concept="25R33" id="4ejUrJLvtip" role="25R1y">
+      <property role="3tVfz5" value="4869492615537349785" />
+      <property role="TrG5h" value="less" />
+      <property role="1L1pqM" value="&lt;" />
+    </node>
+    <node concept="25R33" id="4ejUrJLvtiu" role="25R1y">
+      <property role="3tVfz5" value="4869492615537349790" />
+      <property role="TrG5h" value="lessEqual" />
+      <property role="1L1pqM" value="&lt;=" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4ejUrJLx7Uf">
+    <property role="EcuMT" value="4869492615537786511" />
+    <property role="3GE5qa" value="constraints.interface" />
+    <property role="TrG5h" value="IActuatable" />
   </node>
 </model>
 

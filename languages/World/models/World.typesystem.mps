@@ -38,6 +38,9 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
+      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
@@ -82,6 +85,14 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
+      </concept>
+    </language>
   </registry>
   <node concept="18kY7G" id="2SHk79A7Um9">
     <property role="TrG5h" value="check_Body_For_Not_Implemented_Reference_Frame_Other_than_Origin" />
@@ -99,8 +110,8 @@
                   <ref role="3Tt5mk" to="t5d6:6ikwsJ8skAB" resolve="frame_origin" />
                 </node>
               </node>
-              <node concept="3TrEf2" id="2SHk79A7WJQ" role="2OqNvi">
-                <ref role="3Tt5mk" to="t5d6:7nQgi2G4YRF" resolve="initialPose" />
+              <node concept="3TrEf2" id="5cPIUTqbJJk" role="2OqNvi">
+                <ref role="3Tt5mk" to="t5d6:2SHk79Aerep" resolve="initialPose" />
               </node>
             </node>
             <node concept="3x8VRR" id="2SHk79A7Y0W" role="2OqNvi" />
@@ -131,11 +142,11 @@
                         <ref role="3Tt5mk" to="t5d6:6ikwsJ8skAB" resolve="frame_origin" />
                       </node>
                     </node>
-                    <node concept="3TrEf2" id="2SHk79A7YYP" role="2OqNvi">
-                      <ref role="3Tt5mk" to="t5d6:7nQgi2G4YRF" resolve="initialPose" />
+                    <node concept="3TrEf2" id="5cPIUTqbJOu" role="2OqNvi">
+                      <ref role="3Tt5mk" to="t5d6:2SHk79Aerep" resolve="initialPose" />
                     </node>
                   </node>
-                  <node concept="3TrEf2" id="2SHk79A7Zut" role="2OqNvi">
+                  <node concept="3TrEf2" id="5cPIUTqbKao" role="2OqNvi">
                     <ref role="3Tt5mk" to="t5d6:48FzSx90eEm" resolve="reference" />
                   </node>
                 </node>
@@ -154,11 +165,11 @@
                             <ref role="3Tt5mk" to="t5d6:6ikwsJ8skAB" resolve="frame_origin" />
                           </node>
                         </node>
-                        <node concept="3TrEf2" id="2SHk79A81HS" role="2OqNvi">
-                          <ref role="3Tt5mk" to="t5d6:7nQgi2G4YRF" resolve="initialPose" />
+                        <node concept="3TrEf2" id="5cPIUTqbJWN" role="2OqNvi">
+                          <ref role="3Tt5mk" to="t5d6:2SHk79Aerep" resolve="initialPose" />
                         </node>
                       </node>
-                      <node concept="3TrEf2" id="2SHk79A81HT" role="2OqNvi">
+                      <node concept="3TrEf2" id="5cPIUTqbKbG" role="2OqNvi">
                         <ref role="3Tt5mk" to="t5d6:48FzSx90eEm" resolve="reference" />
                       </node>
                     </node>
@@ -190,11 +201,11 @@
                         <ref role="3Tt5mk" to="t5d6:6ikwsJ8skAB" resolve="frame_origin" />
                       </node>
                     </node>
-                    <node concept="3TrEf2" id="2SHk79A81OM" role="2OqNvi">
-                      <ref role="3Tt5mk" to="t5d6:7nQgi2G4YRF" resolve="initialPose" />
+                    <node concept="3TrEf2" id="5cPIUTqbJYb" role="2OqNvi">
+                      <ref role="3Tt5mk" to="t5d6:2SHk79Aerep" resolve="initialPose" />
                     </node>
                   </node>
-                  <node concept="3TrEf2" id="2SHk79A81ON" role="2OqNvi">
+                  <node concept="3TrEf2" id="5cPIUTqbKd0" role="2OqNvi">
                     <ref role="3Tt5mk" to="t5d6:48FzSx90eEm" resolve="reference" />
                   </node>
                 </node>
@@ -210,6 +221,44 @@
     <node concept="1YaCAy" id="2SHk79A7Umc" role="1YuTPh">
       <property role="TrG5h" value="body" />
       <ref role="1YaFvo" to="t5d6:496x6PSwzeX" resolve="Body" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="4ejUrJLyiHs">
+    <property role="3GE5qa" value="constraints" />
+    <property role="TrG5h" value="Check_MotionConstraint_Can_Be_Realized" />
+    <node concept="3clFbS" id="4ejUrJLyiHt" role="18ibNy">
+      <node concept="3SKdUt" id="4ejUrJLyiHG" role="3cqZAp">
+        <node concept="1PaTwC" id="4ejUrJLyiHH" role="3ndbpf">
+          <node concept="3oM_SD" id="4ejUrJLyiHJ" role="1PaTwD">
+            <property role="3oM_SC" value="Can" />
+          </node>
+          <node concept="3oM_SD" id="4ejUrJLyiHO" role="1PaTwD">
+            <property role="3oM_SC" value="only" />
+          </node>
+          <node concept="3oM_SD" id="4ejUrJLyiHR" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="4ejUrJLyiHV" role="1PaTwD">
+            <property role="3oM_SC" value="enforced" />
+          </node>
+          <node concept="3oM_SD" id="4ejUrJLyiI0" role="1PaTwD">
+            <property role="3oM_SC" value="if" />
+          </node>
+          <node concept="3oM_SD" id="4ejUrJLyiIl" role="1PaTwD">
+            <property role="3oM_SC" value="actuators" />
+          </node>
+          <node concept="3oM_SD" id="4ejUrJLyiIs" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="4ejUrJLyiI$" role="1PaTwD">
+            <property role="3oM_SC" value="involved!!!" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4ejUrJLyiHv" role="1YuTPh">
+      <property role="TrG5h" value="mc" />
+      <ref role="1YaFvo" to="t5d6:496x6PSwAXC" resolve="IMotionConstraint" />
     </node>
   </node>
 </model>
