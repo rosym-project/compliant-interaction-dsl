@@ -469,5 +469,76 @@
       <node concept="3clFbS" id="3XeAJG9geVh" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="5UFYq0it78I">
+    <property role="3GE5qa" value="constraints.kinematic" />
+    <ref role="13h7C2" to="t5d6:5UFYq0it78H" resolve="FixedConstraint" />
+    <node concept="13hLZK" id="5UFYq0it78J" role="13h7CW">
+      <node concept="3clFbS" id="5UFYq0it78K" role="2VODD2">
+        <node concept="3clFbF" id="5UFYq0itfS7" role="3cqZAp">
+          <node concept="37vLTI" id="5UFYq0itgJF" role="3clFbG">
+            <node concept="2pJPEk" id="5UFYq0itgMk" role="37vLTx">
+              <node concept="2pJPED" id="5UFYq0itgSi" role="2pJPEn">
+                <ref role="2pJxaS" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+                <node concept="2pJxcG" id="5UFYq0itgU$" role="2pJxcM">
+                  <ref role="2pJxcJ" to="tpee:gc$nh$Z" resolve="value" />
+                  <node concept="Xl_RD" id="5UFYq0itiVG" role="28ntcv">
+                    <property role="Xl_RC" value="0.0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5UFYq0itgoc" role="37vLTJ">
+              <node concept="13iPFW" id="5UFYq0itfS6" role="2Oq$k0" />
+              <node concept="3TrEf2" id="5UFYq0itgzl" role="2OqNvi">
+                <ref role="3Tt5mk" to="t5d6:5UFYq0it78u" resolve="axisX" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5UFYq0itiZM" role="3cqZAp">
+          <node concept="37vLTI" id="5UFYq0itiZN" role="3clFbG">
+            <node concept="2pJPEk" id="5UFYq0itiZO" role="37vLTx">
+              <node concept="2pJPED" id="5UFYq0itiZP" role="2pJPEn">
+                <ref role="2pJxaS" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+                <node concept="2pJxcG" id="5UFYq0itiZQ" role="2pJxcM">
+                  <ref role="2pJxcJ" to="tpee:gc$nh$Z" resolve="value" />
+                  <node concept="Xl_RD" id="5UFYq0itiZR" role="28ntcv">
+                    <property role="Xl_RC" value="0.0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5UFYq0itiZS" role="37vLTJ">
+              <node concept="13iPFW" id="5UFYq0itiZT" role="2Oq$k0" />
+              <node concept="3TrEf2" id="5UFYq0itj83" role="2OqNvi">
+                <ref role="3Tt5mk" to="t5d6:5UFYq0it78z" resolve="axisY" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5UFYq0itj3v" role="3cqZAp">
+          <node concept="37vLTI" id="5UFYq0itj3w" role="3clFbG">
+            <node concept="2pJPEk" id="5UFYq0itj3x" role="37vLTx">
+              <node concept="2pJPED" id="5UFYq0itj3y" role="2pJPEn">
+                <ref role="2pJxaS" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+                <node concept="2pJxcG" id="5UFYq0itj3z" role="2pJxcM">
+                  <ref role="2pJxcJ" to="tpee:gc$nh$Z" resolve="value" />
+                  <node concept="Xl_RD" id="5UFYq0itj3$" role="28ntcv">
+                    <property role="Xl_RC" value="0.0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5UFYq0itj3_" role="37vLTJ">
+              <node concept="13iPFW" id="5UFYq0itj3A" role="2Oq$k0" />
+              <node concept="3TrEf2" id="5UFYq0itj8O" role="2OqNvi">
+                <ref role="3Tt5mk" to="t5d6:5UFYq0it78w" resolve="axisZ" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -10,6 +10,7 @@
     <import index="nlj3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typesystem.newTypesystem.structure(MPS.Core/)" />
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
     <import index="1oap" ref="r:03d44d4c-3d65-461c-9085-0f48e9569e59(jetbrains.mps.lang.resources.structure)" />
+    <import index="cewj" ref="r:cd13618c-02ad-4af8-a3e4-3414c58c4613(Kinematics.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -19,8 +20,19 @@
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+        <property id="672037151186491528" name="presentation" index="1L1pqM" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -148,9 +160,16 @@
     <node concept="1TJgyj" id="496x6PSwB63" role="1TKVEi">
       <property role="IQ2ns" value="4775650060581106051" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="constraints" />
+      <property role="20kJfa" value="natural_constraints" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="496x6PSwAXC" resolve="IGeometrical_WRONG_NAME_Constraint" />
+      <ref role="20lvS9" node="496x6PSwAXC" resolve="IMotionConstraint" />
+    </node>
+    <node concept="1TJgyj" id="5UFYq0ixfQ$" role="1TKVEi">
+      <property role="IQ2ns" value="6821820526483537316" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="artificial_constraints" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="496x6PSwAXC" resolve="IMotionConstraint" />
     </node>
     <node concept="PrWs8" id="496x6PSwAuY" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -208,42 +227,20 @@
   </node>
   <node concept="PlHQZ" id="496x6PSwAXC">
     <property role="EcuMT" value="4775650060581105512" />
-    <property role="TrG5h" value="IGeometrical_WRONG_NAME_Constraint" />
+    <property role="TrG5h" value="IMotionConstraint" />
     <property role="3GE5qa" value="constraints.interface" />
-  </node>
-  <node concept="1TIwiD" id="6ikwsJ8siaC">
-    <property role="EcuMT" value="7247560412587172520" />
-    <property role="3GE5qa" value="constraints" />
-    <property role="TrG5h" value="MotionConstraint" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6ikwsJ8siaM" role="1TKVEl">
-      <property role="IQ2nx" value="7247560412587172530" />
+    <node concept="1TJgyi" id="5UFYq0itSZj" role="1TKVEl">
+      <property role="IQ2nx" value="6821820526482657235" />
+      <property role="TrG5h" value="natural" />
+      <ref role="AX2Wp" node="5UFYq0itSZh" resolve="NaturalOrArtificialIndicator" />
+    </node>
+    <node concept="1TJgyi" id="5UFYq0it78n" role="1TKVEl">
+      <property role="IQ2nx" value="6821820526482453015" />
       <property role="TrG5h" value="id" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="PrWs8" id="6ikwsJ8siaD" role="PzmwI">
-      <ref role="PrY4T" node="496x6PSwAXC" resolve="IGeometrical_WRONG_NAME_Constraint" />
-    </node>
-    <node concept="PrWs8" id="6ikwsJ8siaI" role="PzmwI">
+    <node concept="PrWs8" id="5UFYq0ivrlg" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6ikwsJ8siaO">
-    <property role="EcuMT" value="7247560412587172532" />
-    <property role="3GE5qa" value="constraints" />
-    <property role="TrG5h" value="FixedConstraint" />
-    <ref role="1TJDcQ" node="6ikwsJ8siaC" resolve="MotionConstraint" />
-    <node concept="1TJgyj" id="6ikwsJ8siaP" role="1TKVEi">
-      <property role="IQ2ns" value="7247560412587172533" />
-      <property role="20kJfa" value="source" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
-    </node>
-    <node concept="1TJgyj" id="6ikwsJ8siaR" role="1TKVEi">
-      <property role="IQ2ns" value="7247560412587172535" />
-      <property role="20kJfa" value="target" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
     </node>
   </node>
   <node concept="1TIwiD" id="7nQgi2G4YRH">
@@ -481,7 +478,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="constraints" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="496x6PSwAXC" resolve="IGeometrical_WRONG_NAME_Constraint" />
+      <ref role="20lvS9" node="496x6PSwAXC" resolve="IMotionConstraint" />
     </node>
     <node concept="PrWs8" id="2SHk79Aeqn3" role="PzmwI">
       <ref role="PrY4T" node="2SHk79Aeqn2" resolve="IInstantiatable" />
@@ -500,6 +497,16 @@
     <property role="TrG5h" value="BodyWithDynamics" />
     <property role="3GE5qa" value="physical" />
     <ref role="1TJDcQ" node="496x6PSwzeX" resolve="Body" />
+    <node concept="1TJgyi" id="5UFYq0iwuJx" role="1TKVEl">
+      <property role="IQ2nx" value="6821820526483336161" />
+      <property role="TrG5h" value="visual" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5UFYq0iwuJz" role="1TKVEl">
+      <property role="IQ2nx" value="6821820526483336163" />
+      <property role="TrG5h" value="collision" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="2SHk79AeHau" role="1TKVEi">
       <property role="IQ2ns" value="3327404151968289438" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -594,6 +601,94 @@
     </node>
     <node concept="t5JxF" id="2SHk79Aereu" role="lGtFl">
       <property role="t5JxN" value="Icons from https://www.flaticon.com/authors/smashicons by Smashicons" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5UFYq0it78m">
+    <property role="EcuMT" value="6821820526482453014" />
+    <property role="3GE5qa" value="constraints.kinematic" />
+    <property role="TrG5h" value="KinematicConstraint" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5UFYq0itnA3" role="1TKVEi">
+      <property role="IQ2ns" value="6821820526482520451" />
+      <property role="20kJfa" value="source" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
+    </node>
+    <node concept="1TJgyj" id="5UFYq0itnA8" role="1TKVEi">
+      <property role="IQ2ns" value="6821820526482520456" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
+    </node>
+    <node concept="1TJgyj" id="5UFYq0it78u" role="1TKVEi">
+      <property role="IQ2ns" value="6821820526482453022" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="axisX" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="1TJgyj" id="5UFYq0it78z" role="1TKVEi">
+      <property role="IQ2ns" value="6821820526482453027" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="axisY" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="1TJgyj" id="5UFYq0it78w" role="1TKVEi">
+      <property role="IQ2ns" value="6821820526482453024" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="axisZ" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="PrWs8" id="5UFYq0it78o" role="PzmwI">
+      <ref role="PrY4T" node="496x6PSwAXC" resolve="IMotionConstraint" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5UFYq0it78q">
+    <property role="EcuMT" value="6821820526482453018" />
+    <property role="3GE5qa" value="constraints.kinematic" />
+    <property role="TrG5h" value="RevoluteConstraint" />
+    <ref role="1TJDcQ" node="5UFYq0it78m" resolve="KinematicConstraint" />
+  </node>
+  <node concept="1TIwiD" id="5UFYq0it78G">
+    <property role="EcuMT" value="6821820526482453036" />
+    <property role="3GE5qa" value="constraints.kinematic" />
+    <property role="TrG5h" value="PrismaticConstraint" />
+    <ref role="1TJDcQ" node="5UFYq0it78m" resolve="KinematicConstraint" />
+  </node>
+  <node concept="1TIwiD" id="5UFYq0it78H">
+    <property role="EcuMT" value="6821820526482453037" />
+    <property role="3GE5qa" value="constraints.kinematic" />
+    <property role="TrG5h" value="FixedConstraint" />
+    <ref role="1TJDcQ" node="5UFYq0it78m" resolve="KinematicConstraint" />
+  </node>
+  <node concept="25R3W" id="5UFYq0itSZh">
+    <property role="3F6X1D" value="6821820526482657233" />
+    <property role="3GE5qa" value="constraints.interface" />
+    <property role="TrG5h" value="NaturalOrArtificialIndicator" />
+    <ref role="1H5jkz" node="5UFYq0itSZi" resolve="NATURAL" />
+    <node concept="25R33" id="5UFYq0itSZi" role="25R1y">
+      <property role="3tVfz5" value="6821820526482657234" />
+      <property role="TrG5h" value="NATURAL" />
+      <property role="1L1pqM" value="Natural Constraint" />
+    </node>
+    <node concept="25R33" id="5UFYq0itSZl" role="25R1y">
+      <property role="3tVfz5" value="6821820526482657237" />
+      <property role="TrG5h" value="ARTIFICIAL" />
+      <property role="1L1pqM" value="Artificial Constraint" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5cPIUTpZwoo">
+    <property role="EcuMT" value="5995904836422207000" />
+    <property role="TrG5h" value="MultiBodyFromRobotModel" />
+    <property role="3GE5qa" value="physical" />
+    <ref role="1TJDcQ" node="496x6PSwzeX" resolve="Body" />
+    <node concept="1TJgyj" id="5cPIUTpZwos" role="1TKVEi">
+      <property role="IQ2ns" value="5995904836422207004" />
+      <property role="20kJfa" value="robotmodel" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="cewj:3Wmswgx0nyU" resolve="RobotModel" />
     </node>
   </node>
 </model>

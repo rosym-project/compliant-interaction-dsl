@@ -4,10 +4,16 @@
   <languages>
     <use id="2f1590a7-be3b-42ac-86c9-c109178e746f" name="World" version="0" />
     <use id="927dc671-3400-40d1-b22c-b8dda2957427" name="CompliantInteraction" version="0" />
+    <use id="d6881f78-a85d-4c9e-931e-30879e67afdd" name="Kinematics" version="0" />
   </languages>
-  <imports />
+  <imports>
+    <import index="xsbx" ref="r:ef9cfe33-84eb-410f-ad3a-77b5f18c7124(CompliantInteraction.kinematics)" />
+  </imports>
   <registry>
     <language id="2f1590a7-be3b-42ac-86c9-c109178e746f" name="World">
+      <concept id="5995904836422207000" name="World.structure.MultiBodyFromRobotModel" flags="ng" index="aMVQQ">
+        <reference id="5995904836422207004" name="robotmodel" index="aMVQM" />
+      </concept>
       <concept id="4768062446004967317" name="World.structure.BodyFromURDF" flags="ng" index="baxwt" />
       <concept id="4768062446004974197" name="World.structure.BodyFromFile" flags="ng" index="bazRX">
         <property id="4768062446004974198" name="file" index="bazRY" />
@@ -104,7 +110,7 @@
     <node concept="3GaJ_V" id="2SHk79Af5i6" role="ULbc1">
       <property role="TrG5h" value="clamp" />
       <property role="3GaJAl" value="SpringClamp" />
-      <property role="ULeZC" value="5" />
+      <property role="ULeZC" value="6" />
       <node concept="ULbc9" id="2SHk79Af5i7" role="2GTsxI">
         <property role="TrG5h" value="frame_clamp_com" />
         <property role="ULeZE" value="-1" />
@@ -133,6 +139,42 @@
             <property role="$nhwW" value="0.0" />
           </node>
           <node concept="3b6qkQ" id="2SHk79Af5kS" role="21qWlK">
+            <property role="$nhwW" value="0.0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="aMVQQ" id="5cPIUTpZQyP" role="ULbc1">
+      <property role="TrG5h" value="robot1" />
+      <ref role="aMVQM" to="xsbx:5cPIUTpKr9g" resolve="Schunk_Egp_40_Robot" />
+      <node concept="ULbc9" id="5cPIUTpZQyQ" role="2GTsxI">
+        <property role="TrG5h" value="frame_robot1_com" />
+        <property role="ULeZE" value="-1" />
+      </node>
+      <node concept="ULbc9" id="5cPIUTpZQyR" role="2GTsxG">
+        <property role="TrG5h" value="frame_robot1_origin" />
+        <property role="ULeZE" value="-1" />
+        <node concept="3pTqNd" id="5cPIUTpZQzi" role="185efF">
+          <ref role="baQku" node="2SHk79Af5j8" resolve="origin" />
+          <node concept="3b6qkQ" id="5cPIUTpZQzj" role="21qWmj">
+            <property role="$nhwW" value="1.0" />
+          </node>
+          <node concept="3b6qkQ" id="5cPIUTpZQzk" role="21qWmq">
+            <property role="$nhwW" value="1.0" />
+          </node>
+          <node concept="3b6qkQ" id="5cPIUTpZQzl" role="21qWlB">
+            <property role="$nhwW" value="1.0" />
+          </node>
+          <node concept="3b6qkQ" id="5cPIUTpZQzm" role="21qWmu">
+            <property role="$nhwW" value="1.0" />
+          </node>
+          <node concept="3b6qkQ" id="5cPIUTpZQzn" role="21qWlx">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="5cPIUTpZQzo" role="21qWlC">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="5cPIUTpZQzp" role="21qWlK">
             <property role="$nhwW" value="0.0" />
           </node>
         </node>
