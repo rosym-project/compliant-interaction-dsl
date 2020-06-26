@@ -161,7 +161,7 @@
     <node concept="3GaJ_V" id="2SHk79Af5i6" role="ULbc1">
       <property role="TrG5h" value="clamp" />
       <property role="3GaJAl" value="SpringClamp" />
-      <property role="ULeZC" value="6" />
+      <property role="ULeZC" value="7" />
       <node concept="ULbc9" id="2SHk79Af5i7" role="2GTsxI">
         <property role="TrG5h" value="frame_clamp_com" />
         <property role="ULeZE" value="-1" />
@@ -283,6 +283,34 @@
           <property role="$nhwW" value="0.0" />
         </node>
         <node concept="3b6qkQ" id="2SHk79Af5jY" role="21qWlK">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+    </node>
+    <node concept="ULbc9" id="44cX2TJ6Dwj" role="ULbc3">
+      <property role="TrG5h" value="frame3" />
+      <property role="ULeZE" value="4" />
+      <node concept="3pTqNd" id="44cX2TJ6DwC" role="185efF">
+        <ref role="baQku" node="2SHk79Af5jF" resolve="frame2" />
+        <node concept="3b6qkQ" id="44cX2TJ6DwD" role="21qWmj">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="44cX2TJ6DwE" role="21qWmq">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="44cX2TJ6DwF" role="21qWlB">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="44cX2TJ6DwG" role="21qWmu">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="44cX2TJ6DwH" role="21qWlx">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="44cX2TJ6DwI" role="21qWlC">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="44cX2TJ6DwJ" role="21qWlK">
           <property role="$nhwW" value="0.0" />
         </node>
       </node>
