@@ -128,16 +128,10 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
-        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
-      </concept>
       <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
         <child id="1140725362529" name="linkTarget" index="2oxUTC" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
-        <child id="1138662048170" name="value" index="tz02z" />
-      </concept>
       <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC">
         <reference id="1139880128956" name="concept" index="1A9B2P" />
       </concept>
@@ -540,29 +534,6 @@
               <node concept="13iPFW" id="5UFYq0itj3A" role="2Oq$k0" />
               <node concept="3TrEf2" id="5UFYq0itj8O" role="2OqNvi">
                 <ref role="3Tt5mk" to="t5d6:5UFYq0it78w" resolve="axisZ" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="13h7C7" id="4ejUrJLv387">
-    <property role="3GE5qa" value="constraints.force" />
-    <ref role="13h7C2" to="t5d6:4ejUrJLv1Ww" resolve="ForceConstraint" />
-    <node concept="13hLZK" id="4ejUrJLv388" role="13h7CW">
-      <node concept="3clFbS" id="4ejUrJLv389" role="2VODD2">
-        <node concept="3clFbF" id="4ejUrJLv38j" role="3cqZAp">
-          <node concept="2OqwBi" id="4ejUrJLv3$s" role="3clFbG">
-            <node concept="2OqwBi" id="4ejUrJLv3gP" role="2Oq$k0">
-              <node concept="13iPFW" id="4ejUrJLv38i" role="2Oq$k0" />
-              <node concept="3TrcHB" id="4ejUrJLv5re" role="2OqNvi">
-                <ref role="3TsBF5" to="t5d6:5UFYq0itSZj" resolve="natural" />
-              </node>
-            </node>
-            <node concept="tyxLq" id="4ejUrJLv3FM" role="2OqNvi">
-              <node concept="21nZrQ" id="4ejUrJLv3HD" role="tz02z">
-                <ref role="21nZrZ" to="t5d6:5UFYq0itSZl" resolve="ARTIFICIAL" />
               </node>
             </node>
           </node>

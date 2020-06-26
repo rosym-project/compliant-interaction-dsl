@@ -11,17 +11,56 @@
   </imports>
   <registry>
     <language id="2f1590a7-be3b-42ac-86c9-c109178e746f" name="World">
+      <concept id="851167869885574619" name="World.structure.NamedFrameRef" flags="ng" index="b3D_K">
+        <reference id="851167869885574622" name="frame" index="b3D_P" />
+      </concept>
       <concept id="4768062446004967317" name="World.structure.BodyFromURDF" flags="ng" index="baxwt" />
       <concept id="4768062446004974197" name="World.structure.BodyFromFile" flags="ng" index="bazRX">
         <property id="4768062446004974198" name="file" index="bazRY" />
       </concept>
-      <concept id="4869492615537237792" name="World.structure.ForceConstraint" flags="ng" index="2MVZqr">
-        <reference id="4869492615537423675" name="source" index="2MVhM0" />
-        <reference id="4869492615537423603" name="target" index="2MVhP8" />
-        <child id="4869492615537423598" name="axisZ" index="2MVhPl" />
-        <child id="4869492615537423597" name="axisY" index="2MVhPm" />
-        <child id="4869492615537423596" name="axisX" index="2MVhPn" />
-        <child id="4869492615537263884" name="force" index="2MVQMR" />
+      <concept id="4768062446005133525" name="World.structure.FrameRef" flags="ng" index="bbUXt">
+        <reference id="4768062446005133526" name="ref" index="bbUXu" />
+      </concept>
+      <concept id="851167869882056719" name="World.structure.ContactConstraint" flags="ng" index="bh3i$">
+        <property id="851167869882971832" name="tz" index="bl$8j" />
+        <property id="851167869882971836" name="rx" index="bl$8n" />
+        <property id="851167869882971827" name="tx" index="bl$8o" />
+        <property id="851167869882971829" name="ty" index="bl$8u" />
+        <property id="851167869882971841" name="ry" index="bl$9E" />
+        <property id="851167869882971847" name="rz" index="bl$9G" />
+        <reference id="851167869882056721" name="with_reference_to" index="bh3iU" />
+        <reference id="851167869882056720" name="target" index="bh3iV" />
+        <reference id="851167869883830707" name="target_body" index="bqiko" />
+        <reference id="851167869883719151" name="reference_body" index="bqI_4" />
+      </concept>
+      <concept id="851167869884275414" name="World.structure.ConstantDataSource" flags="ng" index="boATX">
+        <child id="851167869884275417" name="exp" index="boATM" />
+      </concept>
+      <concept id="851167869885090656" name="World.structure.LinearCartesianTrajectory" flags="ng" index="btvZb">
+        <child id="851167869885090795" name="end" index="btvX0" />
+        <child id="851167869885090780" name="start" index="btvXR" />
+        <child id="851167869885090671" name="control" index="btvZ4" />
+      </concept>
+      <concept id="851167869884739601" name="World.structure.MassSpringDamper_Stiffness_Damping" flags="ng" index="buOiU">
+        <child id="851167869884739603" name="damping" index="buOiS" />
+        <child id="851167869884739602" name="stiffness" index="buOiT" />
+      </concept>
+      <concept id="851167869884731415" name="World.structure.MassSpringDamperConstraint" flags="ng" index="buQiW">
+        <child id="851167869884739636" name="rz" index="buOiv" />
+      </concept>
+      <concept id="851167869884731389" name="World.structure.ImpedanceConstraint" flags="ng" index="buRHm">
+        <reference id="851167869884731391" name="with_reference_to" index="buRHk" />
+        <reference id="851167869884731390" name="target" index="buRHl" />
+      </concept>
+      <concept id="851167869879135888" name="World.structure.ApplyForce" flags="ng" index="b$dCV">
+        <reference id="851167869879135890" name="with_reference_to" index="b$dCT" />
+        <reference id="851167869879135889" name="target" index="b$dCU" />
+        <child id="851167869879135904" name="tz" index="b$dCb" />
+      </concept>
+      <concept id="851167869879832775" name="World.structure.ForceConstraint" flags="ng" index="bDyhG">
+        <reference id="851167869879832777" name="with_reference_to" index="bDyhy" />
+        <reference id="851167869879832776" name="target" index="bDyhz" />
+        <child id="851167869879832778" name="tx" index="bDyhx" />
       </concept>
       <concept id="4775650060581091177" name="World.structure.IVirtualEntity" flags="ng" index="ULbc4">
         <property id="4775650060581104519" name="id" index="ULeZE" />
@@ -31,6 +70,7 @@
         <child id="7247560412587145511" name="origin" index="2GT3zG" />
         <child id="4775650060581091180" name="physicalEntities" index="ULbc1" />
         <child id="4775650060581091182" name="virtualEntities" index="ULbc3" />
+        <child id="4775650060581106051" name="natural_constraints" index="ULfnI" />
         <child id="6821820526483537316" name="artificial_constraints" index="1cbKg4" />
       </concept>
       <concept id="4775650060581091172" name="World.structure.NamedFrame" flags="ng" index="ULbc9" />
@@ -40,9 +80,6 @@
       <concept id="4775650060581090237" name="World.structure.Body" flags="ng" index="ULbvg">
         <child id="7247560412587182503" name="frame_origin" index="2GTsxG" />
         <child id="7247560412587182501" name="frame_com" index="2GTsxI" />
-      </concept>
-      <concept id="4775650060581105512" name="World.structure.IMotionConstraint" flags="ng" index="ULeG5">
-        <property id="6821820526482657235" name="natural" index="1cR7pN" />
       </concept>
       <concept id="3327404151968215960" name="World.structure.Frame" flags="ng" index="185efE">
         <child id="3327404151968215961" name="initialPose" index="185efF" />
@@ -86,14 +123,14 @@
       <property role="ULeZE" value="1" />
     </node>
     <node concept="baxwt" id="2SHk79Af5hb" role="ULbc1">
-      <property role="TrG5h" value="obj1" />
+      <property role="TrG5h" value="table1" />
       <property role="bazRY" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/3d/table_profile_1.urdf" />
       <node concept="ULbc9" id="2SHk79Af5hc" role="2GTsxI">
-        <property role="TrG5h" value="frame_obj1_com" />
+        <property role="TrG5h" value="frame_table1_com" />
         <property role="ULeZE" value="-1" />
       </node>
       <node concept="ULbc9" id="2SHk79Af5hd" role="2GTsxG">
-        <property role="TrG5h" value="frame_obj1_origin" />
+        <property role="TrG5h" value="frame_table1_origin" />
         <property role="ULeZE" value="-1" />
         <node concept="3pTqNd" id="2SHk79Af5lO" role="185efF">
           <ref role="baQku" node="2SHk79Af5j8" resolve="origin" />
@@ -158,37 +195,37 @@
         </node>
       </node>
     </node>
-    <node concept="aMVQQ" id="4ejUrJLsu_a" role="ULbc1">
+    <node concept="aMVQQ" id="JfXaG0yVYc" role="ULbc1">
       <property role="TrG5h" value="robot1" />
       <ref role="aMVQM" to="xsbx:5cPIUTpKr9g" resolve="Schunk_Egp_40_Robot" />
-      <node concept="ULbc9" id="4ejUrJLsu_b" role="2GTsxI">
+      <node concept="ULbc9" id="JfXaG0yVYd" role="2GTsxI">
         <property role="TrG5h" value="frame_robot1_com" />
         <property role="ULeZE" value="-1" />
       </node>
-      <node concept="ULbc9" id="4ejUrJLsu_c" role="2GTsxG">
+      <node concept="ULbc9" id="JfXaG0yVYe" role="2GTsxG">
         <property role="TrG5h" value="frame_robot1_origin" />
         <property role="ULeZE" value="-1" />
-        <node concept="3pTqNd" id="4ejUrJLsu_B" role="185efF">
+        <node concept="3pTqNd" id="JfXaG0yVYO" role="185efF">
           <ref role="baQku" node="2SHk79Af5j8" resolve="origin" />
-          <node concept="3b6qkQ" id="4ejUrJLsu_C" role="21qWmj">
+          <node concept="3b6qkQ" id="JfXaG0yVYP" role="21qWmj">
             <property role="$nhwW" value="1.0" />
           </node>
-          <node concept="3b6qkQ" id="4ejUrJLsu_D" role="21qWmq">
+          <node concept="3b6qkQ" id="JfXaG0yVYQ" role="21qWmq">
             <property role="$nhwW" value="1.0" />
           </node>
-          <node concept="3b6qkQ" id="4ejUrJLsu_E" role="21qWlB">
+          <node concept="3b6qkQ" id="JfXaG0yVYR" role="21qWlB">
             <property role="$nhwW" value="1.0" />
           </node>
-          <node concept="3b6qkQ" id="4ejUrJLsu_F" role="21qWmu">
+          <node concept="3b6qkQ" id="JfXaG0yVYS" role="21qWmu">
             <property role="$nhwW" value="1.0" />
           </node>
-          <node concept="3b6qkQ" id="4ejUrJLsu_G" role="21qWlx">
+          <node concept="3b6qkQ" id="JfXaG0yVYT" role="21qWlx">
             <property role="$nhwW" value="0.0" />
           </node>
-          <node concept="3b6qkQ" id="4ejUrJLsu_H" role="21qWlC">
+          <node concept="3b6qkQ" id="JfXaG0yVYU" role="21qWlC">
             <property role="$nhwW" value="0.0" />
           </node>
-          <node concept="3b6qkQ" id="4ejUrJLsu_I" role="21qWlK">
+          <node concept="3b6qkQ" id="JfXaG0yVYV" role="21qWlK">
             <property role="$nhwW" value="0.0" />
           </node>
         </node>
@@ -250,22 +287,80 @@
         </node>
       </node>
     </node>
-    <node concept="2MVZqr" id="4ejUrJLw1o1" role="1cbKg4">
-      <property role="1cR7pN" value="5UFYq0itSZl/ARTIFICIAL" />
-      <ref role="2MVhP8" to="xsbx:4ejUrJLv1zI" resolve="frame_SchunkEGP40_link_origin" />
-      <ref role="2MVhM0" node="2SHk79Af5j8" resolve="origin" />
-      <node concept="3b6qkQ" id="4ejUrJLw1ov" role="2MVQMR">
-        <property role="$nhwW" value="6.0" />
+    <node concept="b$dCV" id="JfXaG0Gkyt" role="1cbKg4">
+      <ref role="b$dCU" to="xsbx:4ejUrJLv1zI" resolve="frame_SchunkEGP40_link_origin" />
+      <ref role="b$dCT" node="2SHk79Af5j8" resolve="origin" />
+      <node concept="boATX" id="JfXaG0GkyA" role="b$dCb">
+        <node concept="3b6qkQ" id="JfXaG0GkyG" role="boATM">
+          <property role="$nhwW" value="6.0" />
+        </node>
       </node>
-      <node concept="3b6qkQ" id="4ejUrJLw1o3" role="2MVhPn">
+    </node>
+    <node concept="bDyhG" id="JfXaG0qO1F" role="1cbKg4">
+      <ref role="bDyhz" to="xsbx:4ejUrJLv1zI" resolve="frame_SchunkEGP40_link_origin" />
+      <ref role="bDyhy" node="2SHk79Af5j8" resolve="origin" />
+      <node concept="3b6qkQ" id="JfXaG0r88R" role="bDyhx">
         <property role="$nhwW" value="0.0" />
       </node>
-      <node concept="3b6qkQ" id="4ejUrJLw1o4" role="2MVhPm">
-        <property role="$nhwW" value="0.0" />
+    </node>
+    <node concept="buQiW" id="JfXaG0HCUG" role="1cbKg4">
+      <ref role="buRHl" to="xsbx:4ejUrJLv1zI" resolve="frame_SchunkEGP40_link_origin" />
+      <ref role="buRHk" node="2SHk79Af5ix" resolve="frame1" />
+      <node concept="buOiU" id="JfXaG0I4Ov" role="buOiv">
+        <node concept="3b6qkQ" id="JfXaG0I4Ow" role="buOiT">
+          <property role="$nhwW" value="30.0" />
+        </node>
+        <node concept="3b6qkQ" id="JfXaG0I4Ox" role="buOiS">
+          <property role="$nhwW" value="3.0" />
+        </node>
       </node>
-      <node concept="3b6qkQ" id="4ejUrJLw1o5" role="2MVhPl">
-        <property role="$nhwW" value="1.0" />
+    </node>
+    <node concept="bh3i$" id="JfXaG0AOic" role="ULfnI">
+      <property role="bl$8o" value="JfXaG0AOie/Unconstraint" />
+      <property role="bl$9G" value="JfXaG0AOie/Unconstraint" />
+      <property role="bl$9E" value="JfXaG0AOie/Unconstraint" />
+      <property role="bl$8n" value="JfXaG0AOie/Unconstraint" />
+      <property role="bl$8j" value="JfXaG0ArqF/Bilateral" />
+      <property role="bl$8u" value="JfXaG0AOie/Unconstraint" />
+      <ref role="bh3iV" to="xsbx:4ejUrJLv1zI" resolve="frame_SchunkEGP40_link_origin" />
+      <ref role="bh3iU" node="2SHk79Af5hd" resolve="frame_table1_origin" />
+      <ref role="bqiko" node="JfXaG0yVYc" resolve="robot1" />
+      <ref role="bqI_4" node="2SHk79Af5hb" resolve="table1" />
+    </node>
+  </node>
+  <node concept="btvZb" id="JfXaG0J1nQ">
+    <property role="TrG5h" value="linTraj1" />
+    <node concept="bbUXt" id="JfXaG0KmQm" role="btvXR">
+      <ref role="bbUXu" node="2SHk79Af5ix" resolve="frame1" />
+    </node>
+    <node concept="185efE" id="JfXaG0KmQs" role="btvX0">
+      <node concept="3pTqNd" id="JfXaG0KmQu" role="185efF">
+        <ref role="baQku" node="2SHk79Af5j8" resolve="origin" />
+        <node concept="3b6qkQ" id="JfXaG0KmQv" role="21qWmj">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="JfXaG0KmQw" role="21qWmq">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="JfXaG0KmQx" role="21qWlB">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="JfXaG0KmQy" role="21qWmu">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="JfXaG0KmQz" role="21qWlx">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="JfXaG0KmQ$" role="21qWlC">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="JfXaG0KmQ_" role="21qWlK">
+          <property role="$nhwW" value="0.0" />
+        </node>
       </node>
+    </node>
+    <node concept="b3D_K" id="JfXaG0KQa9" role="btvZ4">
+      <ref role="b3D_P" to="xsbx:4ejUrJLv1zI" resolve="frame_SchunkEGP40_link_origin" />
     </node>
   </node>
 </model>
