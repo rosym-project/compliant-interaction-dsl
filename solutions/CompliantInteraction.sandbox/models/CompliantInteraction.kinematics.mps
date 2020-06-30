@@ -7,10 +7,20 @@
   <imports />
   <registry>
     <language id="2f1590a7-be3b-42ac-86c9-c109178e746f" name="World">
+      <concept id="4775650060581091177" name="World.structure.IVirtualEntity" flags="ng" index="ULbc4">
+        <property id="4775650060581104519" name="id" index="ULeZE" />
+      </concept>
       <concept id="4775650060581091172" name="World.structure.NamedFrame" flags="ng" index="ULbc9" />
+      <concept id="4775650060581091174" name="World.structure.IPhysicalEntity" flags="ng" index="ULbcb">
+        <property id="4775650060581104517" name="id" index="ULeZC" />
+        <property id="8273471368810767771" name="linkid" index="1ZxufV" />
+      </concept>
       <concept id="4775650060581090237" name="World.structure.Body" flags="ng" index="ULbvg">
         <child id="7247560412587182503" name="frame_origin" index="2GTsxG" />
         <child id="7247560412587182501" name="frame_com" index="2GTsxI" />
+      </concept>
+      <concept id="3327404151968215960" name="World.structure.Frame" flags="ng" index="185efE">
+        <property id="8273471368809041807" name="bodyFrame" index="1ZUKBJ" />
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -115,6 +125,8 @@
     </node>
     <node concept="u5KES" id="5cPIUTpKr9h" role="3XQLF5">
       <property role="TrG5h" value="SchunkEGP40_link" />
+      <property role="1ZxufV" value="3" />
+      <property role="ULeZC" value="3" />
       <node concept="u5YpI" id="5cPIUTpKr9j" role="u5Yqj">
         <node concept="3b6qkQ" id="5cPIUTpKrdk" role="3XUmjV">
           <property role="$nhwW" value="0.6" />
@@ -252,6 +264,8 @@
       </node>
       <node concept="ULbc9" id="4ejUrJLv1zI" role="2GTsxG">
         <property role="TrG5h" value="frame_SchunkEGP40_link_origin" />
+        <property role="ULeZE" value="10" />
+        <property role="1ZUKBJ" value="true" />
       </node>
     </node>
     <node concept="u5KEZ" id="5cPIUTpUtRD" role="3XQLF5">
@@ -308,6 +322,8 @@
     </node>
     <node concept="u5KES" id="5cPIUTq8iUs" role="3XQLF5">
       <property role="TrG5h" value="X_l" />
+      <property role="1ZxufV" value="0" />
+      <property role="ULeZC" value="3" />
       <node concept="u5YpI" id="5cPIUTq8jGu" role="u5Yqj">
         <node concept="3cmrfG" id="5cPIUTq8jHo" role="3XUmjV">
           <property role="3cmrfH" value="0" />
@@ -336,6 +352,7 @@
       </node>
       <node concept="ULbc9" id="4ejUrJLv1zE" role="2GTsxG">
         <property role="TrG5h" value="frame_X_l_origin" />
+        <property role="1ZUKBJ" value="true" />
       </node>
     </node>
     <node concept="u5KEZ" id="5cPIUTq8iWA" role="3XQLF5">
@@ -392,6 +409,8 @@
     </node>
     <node concept="u5KES" id="5cPIUTq8jck" role="3XQLF5">
       <property role="TrG5h" value="Y_l" />
+      <property role="1ZxufV" value="1" />
+      <property role="ULeZC" value="3" />
       <node concept="u5YpI" id="5cPIUTq8jpI" role="u5Yqj">
         <node concept="3cmrfG" id="5cPIUTq8jvJ" role="3XUmjy">
           <property role="3cmrfH" value="0" />
@@ -420,6 +439,7 @@
       </node>
       <node concept="ULbc9" id="4ejUrJLv1zA" role="2GTsxG">
         <property role="TrG5h" value="frame_Y_l_origin" />
+        <property role="1ZUKBJ" value="true" />
       </node>
     </node>
     <node concept="u5KEZ" id="5cPIUTq8jf2" role="3XQLF5">
@@ -476,6 +496,8 @@
     </node>
     <node concept="u5KES" id="5cPIUTq8jWg" role="3XQLF5">
       <property role="TrG5h" value="R_l" />
+      <property role="1ZxufV" value="2" />
+      <property role="ULeZC" value="3" />
       <node concept="u5YpI" id="5cPIUTq8jY9" role="u5Yqj">
         <node concept="3cmrfG" id="5cPIUTq8jZ3" role="3XUmjV">
           <property role="3cmrfH" value="0" />
@@ -504,6 +526,7 @@
       </node>
       <node concept="ULbc9" id="4ejUrJLv1zy" role="2GTsxG">
         <property role="TrG5h" value="frame_R_l_origin" />
+        <property role="1ZUKBJ" value="true" />
       </node>
     </node>
     <node concept="u5KEZ" id="5cPIUTq8k8l" role="3XQLF5">

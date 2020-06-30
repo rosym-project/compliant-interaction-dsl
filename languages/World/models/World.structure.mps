@@ -421,6 +421,13 @@
     <property role="TrG5h" value="BodyFromURDF" />
     <property role="3GE5qa" value="physical" />
     <ref role="1TJDcQ" node="496x6PSwzeX" resolve="Body" />
+    <node concept="1TJgyj" id="7kupA5pwtx_" role="1TKVEi">
+      <property role="IQ2ns" value="8439295320038430821" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="retrieved_frames" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="496x6PSwzt$" resolve="NamedFrame" />
+    </node>
     <node concept="PrWs8" id="48FzSx90r9S" role="PzmwI">
       <ref role="PrY4T" node="48FzSx90r9P" resolve="BodyFromFile" />
     </node>
@@ -617,6 +624,11 @@
     <node concept="1TJgyi" id="7bhhA0de$Yf" role="1TKVEl">
       <property role="IQ2nx" value="8273471368809041807" />
       <property role="TrG5h" value="bodyFrame" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="7kupA5pwP2c" role="1TKVEl">
+      <property role="IQ2nx" value="8439295320038527116" />
+      <property role="TrG5h" value="ignore_for_sending" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="JfXaG0IZgU" role="PzmwI">
