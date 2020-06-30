@@ -200,6 +200,11 @@
       <property role="TrG5h" value="id" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="7bhhA0dlamr" role="1TKVEl">
+      <property role="IQ2nx" value="8273471368810767771" />
+      <property role="TrG5h" value="linkid" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="PlHQZ" id="496x6PSwztD">
     <property role="EcuMT" value="4775650060581091177" />
@@ -607,6 +612,11 @@
     <node concept="1TJgyi" id="2SHk79Aereq" role="1TKVEl">
       <property role="IQ2nx" value="3327404151968215962" />
       <property role="TrG5h" value="fixed" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="7bhhA0de$Yf" role="1TKVEl">
+      <property role="IQ2nx" value="8273471368809041807" />
+      <property role="TrG5h" value="bodyFrame" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="JfXaG0IZgU" role="PzmwI">
