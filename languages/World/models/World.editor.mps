@@ -2112,6 +2112,17 @@
               </node>
             </node>
           </node>
+          <node concept="3EZMnI" id="3SOw7n8liAs" role="3EZMnx">
+            <node concept="VPM3Z" id="3SOw7n8liAu" role="3F10Kt" />
+            <node concept="3F0ifn" id="3SOw7n8liAw" role="3EZMnx">
+              <property role="3F0ifm" value="using Inertia of target" />
+              <node concept="Vb9p2" id="3SOw7n8ljD7" role="3F10Kt" />
+            </node>
+            <node concept="l2Vlx" id="3SOw7n8liAx" role="2iSdaV" />
+            <node concept="pVoyu" id="3SOw7n8ljD4" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
           <node concept="3EZMnI" id="JfXaG0Hb23" role="3EZMnx">
             <node concept="VPM3Z" id="JfXaG0Hb24" role="3F10Kt" />
             <node concept="3F0ifn" id="JfXaG0Hb25" role="3EZMnx">
@@ -2340,6 +2351,34 @@
       <node concept="VPM3Z" id="JfXaG0NJwu" role="3F10Kt" />
       <node concept="xShMh" id="JfXaG0NJwz" role="3F10Kt">
         <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3SOw7n8ml3P">
+    <property role="3GE5qa" value="constraints.force" />
+    <ref role="1XX52x" to="t5d6:3SOw7n8mfab" resolve="JointImpedanceConstraint" />
+    <node concept="3EZMnI" id="4yM1uW6kDqu" role="2wV5jI">
+      <node concept="2iRkQZ" id="4yM1uW6kDqv" role="2iSdaV" />
+      <node concept="3EZMnI" id="3SOw7n8ml3W" role="3EZMnx">
+        <node concept="3F0ifn" id="3SOw7n8pjPd" role="3EZMnx">
+          <property role="3F0ifm" value=" " />
+        </node>
+        <node concept="3F0ifn" id="3SOw7n8ml43" role="3EZMnx">
+          <property role="3F0ifm" value="JOINT IMPEDANCE (Maxwell)" />
+        </node>
+        <node concept="l2Vlx" id="3SOw7n8ml3Z" role="2iSdaV" />
+        <node concept="3vyZuw" id="3SOw7n8ml48" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VLuvy" id="3SOw7n8q4qf" role="3F10Kt">
+          <property role="Vb096" value="fLwANPu/blue" />
+        </node>
+      </node>
+      <node concept="35HoNQ" id="4yM1uW6jyb0" role="3EZMnx">
+        <node concept="VPM3Z" id="4yM1uW6jybc" role="3F10Kt" />
+        <node concept="xShMh" id="4yM1uW6jybk" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
     </node>
   </node>

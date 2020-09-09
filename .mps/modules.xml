@@ -8,6 +8,8 @@
       <modulePath path="$PROJECT_DIR$/solutions/RosJava/RosJava.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/RosWorldUpdater/RosWorldUpdater.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/RosWorldUpdaterPlugin/RosWorldUpdaterPlugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/TestEditorInSwing/TestEditorInSwing.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/../coordination-dsl/languages/coordination/coordination.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/../kinematics-dsl/languages/Kinematics/Kinematics.mpl" folder="" />
     </projectModules>
   </component>

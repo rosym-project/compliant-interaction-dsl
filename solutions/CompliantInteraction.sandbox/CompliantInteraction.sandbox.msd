@@ -12,7 +12,6 @@
   </facets>
   <sourcePath />
   <languageVersions>
-    <language slang="l:927dc671-3400-40d1-b22c-b8dda2957427:CompliantInteraction" version="0" />
     <language slang="l:d6881f78-a85d-4c9e-931e-30879e67afdd:Kinematics" version="0" />
     <language slang="l:2f1590a7-be3b-42ac-86c9-c109178e746f:World" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />

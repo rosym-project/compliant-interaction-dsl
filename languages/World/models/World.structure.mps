@@ -1195,5 +1195,38 @@
       <ref role="PrY4T" node="JfXaG0IZgR" resolve="IFrame" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3SOw7n8mfab">
+    <property role="EcuMT" value="4482348772501287563" />
+    <property role="3GE5qa" value="constraints.force" />
+    <property role="TrG5h" value="JointImpedanceConstraint" />
+    <node concept="PrWs8" id="3SOw7n8mfae" role="PzmwI">
+      <ref role="PrY4T" node="496x6PSwAXC" resolve="IMotionConstraint" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3SOw7n8mfaf">
+    <property role="EcuMT" value="4482348772501287567" />
+    <property role="3GE5qa" value="virtual.interface" />
+    <property role="TrG5h" value="IPoint" />
+  </node>
+  <node concept="1TIwiD" id="3SOw7n8mfag">
+    <property role="EcuMT" value="4482348772501287568" />
+    <property role="3GE5qa" value="virtual" />
+    <property role="TrG5h" value="Point1D" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="3SOw7n8mfah">
+    <property role="EcuMT" value="4482348772501287569" />
+    <property role="3GE5qa" value="virtual" />
+    <property role="TrG5h" value="NamedPoint1D" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3SOw7n8mfai" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="11Hu8EFZwOL">
+    <property role="EcuMT" value="1183734814054681905" />
+    <property role="3GE5qa" value="constraints.interface" />
+    <property role="TrG5h" value="IJointContainer" />
+  </node>
 </model>
 
