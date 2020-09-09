@@ -1,1 +1,3 @@
-# compliant-interaction-dsl
+# Compliant Interaction DSL
+
+Usage instructions coming soon!
