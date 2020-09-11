@@ -185,7 +185,7 @@
       <node concept="3XVKd6" id="5cPIUTpKrgM" role="3XUqKd">
         <node concept="3XVKd2" id="5cPIUTpKrgN" role="3XUqK6">
           <node concept="3XUvcq" id="5cPIUTpLjNP" role="3XUqNW">
-            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/schunk-egp-40/meshes/visual/obj/schunk_low_baked_small.obj" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/schunk-egp-40/meshes/visual/obj/schunk_low_baked_small.obj" />
             <node concept="3cmrfG" id="5cPIUTpLjO_" role="3XUvc5">
               <property role="3cmrfH" value="1" />
             </node>
@@ -238,7 +238,7 @@
       <node concept="3XUqK8" id="5cPIUTpLjTE" role="3XUqK9">
         <node concept="3XVKd2" id="5cPIUTpLjTF" role="3XUqNL">
           <node concept="3XUvcq" id="5cPIUTpLjUy" role="3XUqNW">
-            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/schunk-egp-40/meshes/visual/dae/schunk-egp-40-collision.dae" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/schunk-egp-40/meshes/visual/dae/schunk-egp-40-collision.dae" />
             <node concept="3cmrfG" id="5cPIUTpLjVi" role="3XUvc5">
               <property role="3cmrfH" value="1" />
             </node>
@@ -276,7 +276,7 @@
       </node>
       <node concept="ULbc9" id="4ejUrJLv1zI" role="2GTsxG">
         <property role="TrG5h" value="frame_SchunkEGP40_link_origin" />
-        <property role="ULeZE" value="10" />
+        <property role="ULeZE" value="11" />
         <property role="1ZUKBJ" value="true" />
       </node>
     </node>
@@ -586,8 +586,9 @@
       </node>
     </node>
     <node concept="u5KES" id="4yM1uW6A3Pq" role="3XQLF5">
-      <property role="1ZxufV" value="-1" />
+      <property role="1ZxufV" value="0" />
       <property role="TrG5h" value="iiwa7_link_0" />
+      <property role="ULeZC" value="4" />
       <node concept="ULbc9" id="4yM1uW6A3Pr" role="2GTsxI">
         <property role="TrG5h" value="frame_iiwa7_link_0_com" />
         <property role="ULeZE" value="-1" />
@@ -644,7 +645,7 @@
       <node concept="3XVKd6" id="4yM1uW6A3PM" role="3XUqKd">
         <node concept="3XVKd2" id="4yM1uW6A3PN" role="3XUqK6">
           <node concept="3XUvcq" id="4yM1uW6A3PO" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/visual/link_0.dae" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_0.dae" />
             <node concept="3b6qkQ" id="4yM1uW6A3PP" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -660,7 +661,7 @@
       <node concept="3XUqK8" id="4yM1uW6A3PS" role="3XUqK9">
         <node concept="3XVKd2" id="4yM1uW6A3PT" role="3XUqNL">
           <node concept="3XUvcq" id="4yM1uW6A3PU" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/collision/link_0.stl" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_0.stl" />
             <node concept="3b6qkQ" id="4yM1uW6A3PV" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -675,8 +676,9 @@
       </node>
     </node>
     <node concept="u5KES" id="4yM1uW6A3PY" role="3XQLF5">
-      <property role="1ZxufV" value="-1" />
+      <property role="1ZxufV" value="1" />
       <property role="TrG5h" value="iiwa7_link_1" />
+      <property role="ULeZC" value="4" />
       <node concept="ULbc9" id="4yM1uW6A3PZ" role="2GTsxI">
         <property role="TrG5h" value="frame_iiwa7_link_1_com" />
         <property role="ULeZE" value="-1" />
@@ -733,7 +735,7 @@
       <node concept="3XVKd6" id="4yM1uW6A3Qm" role="3XUqKd">
         <node concept="3XVKd2" id="4yM1uW6A3Qn" role="3XUqK6">
           <node concept="3XUvcq" id="4yM1uW6A3Qo" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/visual/link_1.dae" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_1.dae" />
             <node concept="3b6qkQ" id="4yM1uW6A3Qp" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -749,7 +751,7 @@
       <node concept="3XUqK8" id="4yM1uW6A3Qs" role="3XUqK9">
         <node concept="3XVKd2" id="4yM1uW6A3Qt" role="3XUqNL">
           <node concept="3XUvcq" id="4yM1uW6A3Qu" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/collision/link_1.stl" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_1.stl" />
             <node concept="3b6qkQ" id="4yM1uW6A3Qv" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -764,8 +766,9 @@
       </node>
     </node>
     <node concept="u5KES" id="4yM1uW6A3Qy" role="3XQLF5">
-      <property role="1ZxufV" value="-1" />
+      <property role="1ZxufV" value="2" />
       <property role="TrG5h" value="iiwa7_link_2" />
+      <property role="ULeZC" value="4" />
       <node concept="ULbc9" id="4yM1uW6A3Qz" role="2GTsxI">
         <property role="TrG5h" value="frame_iiwa7_link_2_com" />
         <property role="ULeZE" value="-1" />
@@ -822,7 +825,7 @@
       <node concept="3XVKd6" id="4yM1uW6A3QU" role="3XUqKd">
         <node concept="3XVKd2" id="4yM1uW6A3QV" role="3XUqK6">
           <node concept="3XUvcq" id="4yM1uW6A3QW" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/visual/link_2.dae" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_2.dae" />
             <node concept="3b6qkQ" id="4yM1uW6A3QX" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -838,7 +841,7 @@
       <node concept="3XUqK8" id="4yM1uW6A3R0" role="3XUqK9">
         <node concept="3XVKd2" id="4yM1uW6A3R1" role="3XUqNL">
           <node concept="3XUvcq" id="4yM1uW6A3R2" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/collision/link_2.stl" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_2.stl" />
             <node concept="3b6qkQ" id="4yM1uW6A3R3" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -853,8 +856,9 @@
       </node>
     </node>
     <node concept="u5KES" id="4yM1uW6A3R6" role="3XQLF5">
-      <property role="1ZxufV" value="-1" />
+      <property role="1ZxufV" value="3" />
       <property role="TrG5h" value="iiwa7_link_3" />
+      <property role="ULeZC" value="4" />
       <node concept="ULbc9" id="4yM1uW6A3R7" role="2GTsxI">
         <property role="TrG5h" value="frame_iiwa7_link_3_com" />
         <property role="ULeZE" value="-1" />
@@ -911,7 +915,7 @@
       <node concept="3XVKd6" id="4yM1uW6A3Ru" role="3XUqKd">
         <node concept="3XVKd2" id="4yM1uW6A3Rv" role="3XUqK6">
           <node concept="3XUvcq" id="4yM1uW6A3Rw" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/visual/link_3.dae" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_3.dae" />
             <node concept="3b6qkQ" id="4yM1uW6A3Rx" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -927,7 +931,7 @@
       <node concept="3XUqK8" id="4yM1uW6A3R$" role="3XUqK9">
         <node concept="3XVKd2" id="4yM1uW6A3R_" role="3XUqNL">
           <node concept="3XUvcq" id="4yM1uW6A3RA" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/collision/link_3.stl" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_3.stl" />
             <node concept="3b6qkQ" id="4yM1uW6A3RB" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -942,8 +946,9 @@
       </node>
     </node>
     <node concept="u5KES" id="4yM1uW6A3RE" role="3XQLF5">
-      <property role="1ZxufV" value="-1" />
+      <property role="1ZxufV" value="4" />
       <property role="TrG5h" value="iiwa7_link_4" />
+      <property role="ULeZC" value="4" />
       <node concept="ULbc9" id="4yM1uW6A3RF" role="2GTsxI">
         <property role="TrG5h" value="frame_iiwa7_link_4_com" />
         <property role="ULeZE" value="-1" />
@@ -1000,7 +1005,7 @@
       <node concept="3XVKd6" id="4yM1uW6A3S2" role="3XUqKd">
         <node concept="3XVKd2" id="4yM1uW6A3S3" role="3XUqK6">
           <node concept="3XUvcq" id="4yM1uW6A3S4" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/visual/link_4_y_z.obj" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_4_y_z.obj" />
             <node concept="3b6qkQ" id="4yM1uW6A3S5" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -1033,7 +1038,7 @@
       <node concept="3XUqK8" id="4yM1uW6A3Se" role="3XUqK9">
         <node concept="3XVKd2" id="4yM1uW6A3Sf" role="3XUqNL">
           <node concept="3XUvcq" id="4yM1uW6A3Sg" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/collision/link_4.stl" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_4.stl" />
             <node concept="3b6qkQ" id="4yM1uW6A3Sh" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -1048,8 +1053,9 @@
       </node>
     </node>
     <node concept="u5KES" id="4yM1uW6A3Sk" role="3XQLF5">
-      <property role="1ZxufV" value="-1" />
+      <property role="1ZxufV" value="5" />
       <property role="TrG5h" value="iiwa7_link_5" />
+      <property role="ULeZC" value="4" />
       <node concept="ULbc9" id="4yM1uW6A3Sl" role="2GTsxI">
         <property role="TrG5h" value="frame_iiwa7_link_5_com" />
         <property role="ULeZE" value="-1" />
@@ -1106,7 +1112,7 @@
       <node concept="3XVKd6" id="4yM1uW6A3SG" role="3XUqKd">
         <node concept="3XVKd2" id="4yM1uW6A3SH" role="3XUqK6">
           <node concept="3XUvcq" id="4yM1uW6A3SI" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/visual/link_5.dae" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_5.dae" />
             <node concept="3b6qkQ" id="4yM1uW6A3SJ" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -1122,7 +1128,7 @@
       <node concept="3XUqK8" id="4yM1uW6A3SM" role="3XUqK9">
         <node concept="3XVKd2" id="4yM1uW6A3SN" role="3XUqNL">
           <node concept="3XUvcq" id="4yM1uW6A3SO" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/collision/link_5.stl" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_5.stl" />
             <node concept="3b6qkQ" id="4yM1uW6A3SP" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -1137,8 +1143,9 @@
       </node>
     </node>
     <node concept="u5KES" id="4yM1uW6A3SS" role="3XQLF5">
-      <property role="1ZxufV" value="-1" />
+      <property role="1ZxufV" value="6" />
       <property role="TrG5h" value="iiwa7_link_6" />
+      <property role="ULeZC" value="4" />
       <node concept="ULbc9" id="4yM1uW6A3ST" role="2GTsxI">
         <property role="TrG5h" value="frame_iiwa7_link_6_com" />
         <property role="ULeZE" value="-1" />
@@ -1195,7 +1202,7 @@
       <node concept="3XVKd6" id="4yM1uW6A3Tg" role="3XUqKd">
         <node concept="3XVKd2" id="4yM1uW6A3Th" role="3XUqK6">
           <node concept="3XUvcq" id="4yM1uW6A3Ti" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/visual/link_6.dae" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_6.dae" />
             <node concept="3b6qkQ" id="4yM1uW6A3Tj" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -1211,7 +1218,7 @@
       <node concept="3XUqK8" id="4yM1uW6A3Tm" role="3XUqK9">
         <node concept="3XVKd2" id="4yM1uW6A3Tn" role="3XUqNL">
           <node concept="3XUvcq" id="4yM1uW6A3To" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/collision/link_6.stl" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_6.stl" />
             <node concept="3b6qkQ" id="4yM1uW6A3Tp" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -1226,8 +1233,9 @@
       </node>
     </node>
     <node concept="u5KES" id="4yM1uW6A3Ts" role="3XQLF5">
-      <property role="1ZxufV" value="-1" />
+      <property role="1ZxufV" value="7" />
       <property role="TrG5h" value="iiwa7_link_7" />
+      <property role="ULeZC" value="4" />
       <node concept="ULbc9" id="4yM1uW6A3Tt" role="2GTsxI">
         <property role="TrG5h" value="frame_iiwa7_link_7_com" />
         <property role="ULeZE" value="-1" />
@@ -1284,7 +1292,7 @@
       <node concept="3XVKd6" id="4yM1uW6A3TO" role="3XUqKd">
         <node concept="3XVKd2" id="4yM1uW6A3TP" role="3XUqK6">
           <node concept="3XUvcq" id="4yM1uW6A3TQ" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/visual/link_7.dae" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_7.dae" />
             <node concept="3b6qkQ" id="4yM1uW6A3TR" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -1300,7 +1308,7 @@
       <node concept="3XUqK8" id="4yM1uW6A3TU" role="3XUqK9">
         <node concept="3XVKd2" id="4yM1uW6A3TV" role="3XUqNL">
           <node concept="3XUvcq" id="4yM1uW6A3TW" role="3XUqNW">
-            <property role="3XUvce" value="model://kuka-iiwa-7/meshes/collision/link_7.stl" />
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_7.stl" />
             <node concept="3b6qkQ" id="4yM1uW6A3TX" role="3XUvc5">
               <property role="$nhwW" value="1.0" />
             </node>
@@ -1315,8 +1323,9 @@
       </node>
     </node>
     <node concept="u5KES" id="4yM1uW6A3U0" role="3XQLF5">
-      <property role="1ZxufV" value="-1" />
+      <property role="1ZxufV" value="8" />
       <property role="TrG5h" value="iiwa7_link_ee" />
+      <property role="ULeZC" value="4" />
       <node concept="ULbc9" id="4yM1uW6A3U1" role="2GTsxI">
         <property role="TrG5h" value="frame_iiwa7_link_ee_com" />
         <property role="ULeZE" value="-1" />
