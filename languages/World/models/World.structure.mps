@@ -7,6 +7,8 @@
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="cewj" ref="r:cd13618c-02ad-4af8-a3e4-3414c58c4613(Kinematics.structure)" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -69,6 +71,13 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
   </registry>
@@ -183,6 +192,9 @@
     </node>
     <node concept="PrWs8" id="496x6PSwAuY" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="3gyK6Xv64U$" role="PzmwI">
+      <ref role="PrY4T" to="tpce:6OtXG9K2KUI" resolve="DocumentationObjective" />
     </node>
     <node concept="1QGGSu" id="QNdu2ExtQV" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/world16.png" />
@@ -829,31 +841,31 @@
       <property role="IQ2ns" value="851167869879832778" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="tx" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <ref role="20lvS9" node="3gyK6XuXvUI" resolve="Value_Lower_Upper_Bound" />
     </node>
     <node concept="1TJgyj" id="JfXaG0qt3b" role="1TKVEi">
       <property role="IQ2ns" value="851167869879832779" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ty" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <ref role="20lvS9" node="3gyK6XuXvUI" resolve="Value_Lower_Upper_Bound" />
     </node>
     <node concept="1TJgyj" id="JfXaG0qt3c" role="1TKVEi">
       <property role="IQ2ns" value="851167869879832780" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="tz" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <ref role="20lvS9" node="3gyK6XuXvUI" resolve="Value_Lower_Upper_Bound" />
     </node>
     <node concept="1TJgyj" id="JfXaG0qt3d" role="1TKVEi">
       <property role="IQ2ns" value="851167869879832781" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="rx" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <ref role="20lvS9" node="3gyK6XuXvUI" resolve="Value_Lower_Upper_Bound" />
     </node>
     <node concept="1TJgyj" id="JfXaG0qt3e" role="1TKVEi">
       <property role="IQ2ns" value="851167869879832782" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ry" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <ref role="20lvS9" node="3gyK6XuXvUI" resolve="Value_Lower_Upper_Bound" />
     </node>
     <node concept="1TJgyj" id="JfXaG0qt3f" role="1TKVEi">
       <property role="IQ2ns" value="851167869879832783" />
@@ -864,35 +876,8 @@
     <node concept="PrWs8" id="JfXaG0qt3g" role="PzmwI">
       <ref role="PrY4T" node="496x6PSwAXC" resolve="IMotionConstraint" />
     </node>
-    <node concept="1TJgyi" id="JfXaG0qt5v" role="1TKVEl">
-      <property role="IQ2nx" value="851167869879832927" />
-      <property role="TrG5h" value="tx_e" />
-      <ref role="AX2Wp" node="4ejUrJLvtig" resolve="BinaryCompareEnum" />
-    </node>
-    <node concept="1TJgyi" id="JfXaG0qt5x" role="1TKVEl">
-      <property role="IQ2nx" value="851167869879832929" />
-      <property role="TrG5h" value="ty_e" />
-      <ref role="AX2Wp" node="4ejUrJLvtig" resolve="BinaryCompareEnum" />
-    </node>
-    <node concept="1TJgyi" id="JfXaG0qt5$" role="1TKVEl">
-      <property role="IQ2nx" value="851167869879832932" />
-      <property role="TrG5h" value="tz_e" />
-      <ref role="AX2Wp" node="4ejUrJLvtig" resolve="BinaryCompareEnum" />
-    </node>
-    <node concept="1TJgyi" id="JfXaG0qt5C" role="1TKVEl">
-      <property role="IQ2nx" value="851167869879832936" />
-      <property role="TrG5h" value="rx_e" />
-      <ref role="AX2Wp" node="4ejUrJLvtig" resolve="BinaryCompareEnum" />
-    </node>
-    <node concept="1TJgyi" id="JfXaG0qt5H" role="1TKVEl">
-      <property role="IQ2nx" value="851167869879832941" />
-      <property role="TrG5h" value="ry_e" />
-      <ref role="AX2Wp" node="4ejUrJLvtig" resolve="BinaryCompareEnum" />
-    </node>
-    <node concept="1TJgyi" id="JfXaG0qt5N" role="1TKVEl">
-      <property role="IQ2nx" value="851167869879832947" />
-      <property role="TrG5h" value="rz_e" />
-      <ref role="AX2Wp" node="4ejUrJLvtig" resolve="BinaryCompareEnum" />
+    <node concept="PrWs8" id="qYWbB1IyPv" role="PzmwI">
+      <ref role="PrY4T" to="tpce:6OtXG9K2KUI" resolve="DocumentationObjective" />
     </node>
   </node>
   <node concept="1TIwiD" id="JfXaG0yW0f">
@@ -924,6 +909,9 @@
     </node>
     <node concept="PrWs8" id="JfXaG0yW0o" role="PzmwI">
       <ref role="PrY4T" node="496x6PSwAXC" resolve="IMotionConstraint" />
+    </node>
+    <node concept="PrWs8" id="qYWbB1IyPb" role="PzmwI">
+      <ref role="PrY4T" to="tpce:6OtXG9K2KUI" resolve="DocumentationObjective" />
     </node>
     <node concept="1TJgyi" id="JfXaG0ArqN" role="1TKVEl">
       <property role="IQ2nx" value="851167869882971827" />
@@ -960,6 +948,21 @@
       <property role="TrG5h" value="contact_model" />
       <ref role="AX2Wp" node="JfXaG0CuOE" resolve="ContactModelEnum" />
     </node>
+    <node concept="1TJgyi" id="qYWbB1GLSM" role="1TKVEl">
+      <property role="IQ2nx" value="486090490411949618" />
+      <property role="TrG5h" value="target_surface" />
+      <ref role="AX2Wp" node="qYWbB1GLSl" resolve="ContactSurfaceEnum" />
+    </node>
+    <node concept="1TJgyi" id="qYWbB1GLSD" role="1TKVEl">
+      <property role="IQ2nx" value="486090490411949609" />
+      <property role="TrG5h" value="reference_surface" />
+      <ref role="AX2Wp" node="qYWbB1GLSl" resolve="ContactSurfaceEnum" />
+    </node>
+    <node concept="1TJgyi" id="qYWbB1HWay" role="1TKVEl">
+      <property role="IQ2nx" value="486090490412253858" />
+      <property role="TrG5h" value="laterality" />
+      <ref role="AX2Wp" node="qYWbB1HWap" resolve="ContactLaterlityEnum" />
+    </node>
   </node>
   <node concept="25R3W" id="JfXaG0ArqA">
     <property role="3F6X1D" value="851167869882971814" />
@@ -984,7 +987,7 @@
     <node concept="25R33" id="JfXaG0AOie" role="25R1y">
       <property role="3tVfz5" value="851167869883073678" />
       <property role="TrG5h" value="Unconstraint" />
-      <property role="1L1pqM" value="unconstraint" />
+      <property role="1L1pqM" value="unconstrained" />
     </node>
   </node>
   <node concept="PlHQZ" id="JfXaG0Bkep">
@@ -1106,6 +1109,9 @@
       <property role="20kJfa" value="rz" />
       <ref role="20lvS9" node="JfXaG0Hb0h" resolve="MassSpringDamper_Stiffness_Damping" />
     </node>
+    <node concept="PrWs8" id="3gyK6Xv6NG1" role="PzmwI">
+      <ref role="PrY4T" to="tpce:6OtXG9K2KUI" resolve="DocumentationObjective" />
+    </node>
   </node>
   <node concept="1TIwiD" id="JfXaG0Hb0h">
     <property role="EcuMT" value="851167869884739601" />
@@ -1154,6 +1160,12 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="JfXaG0IZgR" resolve="IFrame" />
     </node>
+    <node concept="1TJgyj" id="3gyK6Xv0F4O" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623748329780" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="time" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="PrWs8" id="JfXaG0IwHy" role="PzmwI">
       <ref role="PrY4T" node="JfXaG0IwHx" resolve="ITrajectory" />
     </node>
@@ -1199,8 +1211,38 @@
     <property role="EcuMT" value="4482348772501287563" />
     <property role="3GE5qa" value="constraints.force" />
     <property role="TrG5h" value="JointImpedanceConstraint" />
+    <node concept="1TJgyj" id="3gyK6Xv1KaW" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623748612796" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="kinematic_chain" />
+      <ref role="20lvS9" to="cewj:5cPIUTpZwoo" resolve="MultiBodyFromRobotModel" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6Xv2vuz" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623748806563" />
+      <property role="20kJfa" value="baseLink" />
+      <ref role="20lvS9" to="cewj:3Wmswgx0nyW" resolve="RobotLink" />
+    </node>
+    <node concept="1X3_iC" id="3gyK6Xv5wrd" role="lGtFl">
+      <property role="3V$3am" value="linkDeclaration" />
+      <property role="3V$3ak" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1169125787135/1071489727083" />
+      <node concept="1TJgyj" id="3gyK6Xv2vuB" role="8Wnug">
+        <property role="IQ2ns" value="3756776623748806567" />
+        <property role="20kJfa" value="tipLink" />
+        <ref role="20lvS9" to="cewj:3Wmswgx0nyW" resolve="RobotLink" />
+      </node>
+    </node>
+    <node concept="1TJgyj" id="3gyK6Xv1KaU" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623748612794" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="impedance" />
+      <ref role="20lvS9" node="3gyK6Xv4UYl" resolve="Joint_MassSpringDamper_Stiffness_Damping" />
+    </node>
     <node concept="PrWs8" id="3SOw7n8mfae" role="PzmwI">
       <ref role="PrY4T" node="496x6PSwAXC" resolve="IMotionConstraint" />
+    </node>
+    <node concept="PrWs8" id="3gyK6Xv6NG6" role="PzmwI">
+      <ref role="PrY4T" to="tpce:6OtXG9K2KUI" resolve="DocumentationObjective" />
     </node>
   </node>
   <node concept="PlHQZ" id="3SOw7n8mfaf">
@@ -1227,6 +1269,173 @@
     <property role="EcuMT" value="1183734814054681905" />
     <property role="3GE5qa" value="constraints.interface" />
     <property role="TrG5h" value="IJointContainer" />
+  </node>
+  <node concept="1TIwiD" id="3gyK6XuNTcq">
+    <property role="EcuMT" value="3756776623744979738" />
+    <property role="3GE5qa" value="constraints.dynamic" />
+    <property role="TrG5h" value="VirtualManipulator" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3gyK6XuQSVf" role="1TKVEl">
+      <property role="IQ2nx" value="3756776623745765071" />
+      <property role="TrG5h" value="closure" />
+      <ref role="AX2Wp" node="3gyK6XuQSVc" resolve="ClosureEnum" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6XuQSuM" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623745763250" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="tx" />
+      <ref role="20lvS9" node="3gyK6XuXvUI" resolve="Value_Lower_Upper_Bound" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6XuQSuN" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623745763251" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ty" />
+      <ref role="20lvS9" node="3gyK6XuXvUI" resolve="Value_Lower_Upper_Bound" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6XuQSuO" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623745763252" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="tz" />
+      <ref role="20lvS9" node="3gyK6XuXvUI" resolve="Value_Lower_Upper_Bound" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6XuQSuP" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623745763253" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rx" />
+      <ref role="20lvS9" node="3gyK6XuXvUI" resolve="Value_Lower_Upper_Bound" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6XuQSuQ" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623745763254" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ry" />
+      <ref role="20lvS9" node="3gyK6XuXvUI" resolve="Value_Lower_Upper_Bound" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6XuQSuR" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623745763255" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rz" />
+      <ref role="20lvS9" node="3gyK6XuXvUI" resolve="Value_Lower_Upper_Bound" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6XuQSDk" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623745763924" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contacts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3gyK6XuQSCP" resolve="ContactConstraintRef" />
+    </node>
+    <node concept="PrWs8" id="3gyK6XuQSuH" role="PzmwI">
+      <ref role="PrY4T" node="496x6PSwAXC" resolve="IMotionConstraint" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gyK6XuQSCP">
+    <property role="EcuMT" value="3756776623745763893" />
+    <property role="3GE5qa" value="constraints" />
+    <property role="TrG5h" value="ContactConstraintRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3gyK6XuQSCQ" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623745763894" />
+      <property role="20kJfa" value="constraint" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="JfXaG0yW0f" resolve="ContactConstraint" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3gyK6XuQSVc">
+    <property role="3F6X1D" value="3756776623745765068" />
+    <property role="3GE5qa" value="constraints" />
+    <property role="TrG5h" value="ClosureEnum" />
+    <ref role="1H5jkz" node="3gyK6XuQSVd" resolve="FormClosure" />
+    <node concept="25R33" id="3gyK6XuQSVd" role="25R1y">
+      <property role="3tVfz5" value="3756776623745765069" />
+      <property role="TrG5h" value="FormClosure" />
+      <property role="1L1pqM" value="Form Closure" />
+    </node>
+    <node concept="25R33" id="3gyK6XuQSVe" role="25R1y">
+      <property role="3tVfz5" value="3756776623745765070" />
+      <property role="TrG5h" value="ForceClosure" />
+      <property role="1L1pqM" value="Force Closure" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gyK6XuXvUI">
+    <property role="EcuMT" value="3756776623747497646" />
+    <property role="3GE5qa" value="constraints.force" />
+    <property role="TrG5h" value="Value_Lower_Upper_Bound" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3gyK6XuXw4K" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623747498288" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="exp" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6XuXw4M" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623747498290" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lb" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6XuXw4P" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623747498293" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ub" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gyK6Xv4UYl">
+    <property role="EcuMT" value="3756776623749443477" />
+    <property role="3GE5qa" value="constraints.force" />
+    <property role="TrG5h" value="Joint_MassSpringDamper_Stiffness_Damping" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3gyK6Xv4UYs" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623749443484" />
+      <property role="20kJfa" value="joint" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="cewj:3Wmswgx0nyV" resolve="RobotJoint" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6Xv4UYm" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623749443478" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="stiffness" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+    <node concept="1TJgyj" id="3gyK6Xv4UYn" role="1TKVEi">
+      <property role="IQ2ns" value="3756776623749443479" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="damping" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+    </node>
+  </node>
+  <node concept="25R3W" id="qYWbB1GLSl">
+    <property role="3F6X1D" value="486090490411949589" />
+    <property role="3GE5qa" value="constraints" />
+    <property role="TrG5h" value="ContactSurfaceEnum" />
+    <ref role="1H5jkz" node="qYWbB1GLSt" resolve="Surface" />
+    <node concept="25R33" id="qYWbB1GLSo" role="25R1y">
+      <property role="3tVfz5" value="486090490411949592" />
+      <property role="TrG5h" value="Point" />
+    </node>
+    <node concept="25R33" id="qYWbB1GLSq" role="25R1y">
+      <property role="3tVfz5" value="486090490411949594" />
+      <property role="TrG5h" value="Edge" />
+    </node>
+    <node concept="25R33" id="qYWbB1GLSt" role="25R1y">
+      <property role="3tVfz5" value="486090490411949597" />
+      <property role="TrG5h" value="Surface" />
+    </node>
+  </node>
+  <node concept="25R3W" id="qYWbB1HWap">
+    <property role="3F6X1D" value="486090490412253849" />
+    <property role="3GE5qa" value="constraints" />
+    <property role="TrG5h" value="ContactLaterlityEnum" />
+    <ref role="1H5jkz" node="qYWbB1HWat" resolve="bilateral" />
+    <node concept="25R33" id="qYWbB1HWat" role="25R1y">
+      <property role="3tVfz5" value="486090490412253853" />
+      <property role="TrG5h" value="bilateral" />
+    </node>
+    <node concept="25R33" id="qYWbB1HWav" role="25R1y">
+      <property role="3tVfz5" value="486090490412253855" />
+      <property role="TrG5h" value="unilateral" />
+    </node>
   </node>
 </model>
 
