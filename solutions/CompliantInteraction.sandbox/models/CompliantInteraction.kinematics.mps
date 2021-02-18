@@ -3327,5 +3327,1339 @@
       </node>
     </node>
   </node>
+  <node concept="u5KEY" id="6owOR_KX9Ks">
+    <property role="TrG5h" value="ur5" />
+    <node concept="u5KES" id="6owOR_KX9Kt" role="3XQLF5">
+      <property role="1ZxufV" value="-1" />
+      <property role="TrG5h" value="world" />
+      <node concept="ULbc9" id="6owOR_KX9Ku" role="2GTsxI">
+        <property role="TrG5h" value="frame_world_com" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="ULbc9" id="6owOR_KX9Kv" role="2GTsxG">
+        <property role="TrG5h" value="frame_world_origin" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+    </node>
+    <node concept="u5KES" id="6owOR_KX9Kw" role="3XQLF5">
+      <property role="1ZxufV" value="0" />
+      <property role="TrG5h" value="iiwa7_link_0" />
+      <property role="ULeZC" value="4" />
+      <node concept="ULbc9" id="6owOR_KX9Kx" role="2GTsxI">
+        <property role="TrG5h" value="frame_iiwa7_link_0_com" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="ULbc9" id="6owOR_KX9Ky" role="2GTsxG">
+        <property role="TrG5h" value="frame_iiwa7_link_0_origin" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="u5YpI" id="6owOR_KX9Kz" role="u5Yqj">
+        <node concept="u5KF$" id="6owOR_KX9K$" role="u5YpJ">
+          <node concept="3b6qkQ" id="6owOR_KX9K_" role="3XVZ8y">
+            <property role="$nhwW" value="-0.01" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9KA" role="3XVZ8J">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9KB" role="3XVZ8l">
+            <property role="$nhwW" value="0.07" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9KC" role="3XVZ8T">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9KD" role="3XVZ8V">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9KE" role="3XVZ8A">
+            <property role="$nhwW" value="0.0" />
+          </node>
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9KF" role="3XUmjV">
+          <property role="$nhwW" value="5.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9KG" role="3XUmjy">
+          <property role="$nhwW" value="0.05" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9KH" role="3XUmjJ">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9KI" role="3XUmjl">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9KJ" role="3XUmjs">
+          <property role="$nhwW" value="0.06" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9KK" role="3XUmj4">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9KL" role="3XUmjd">
+          <property role="$nhwW" value="0.03" />
+        </node>
+      </node>
+      <node concept="3XVKd6" id="6owOR_KX9KM" role="3XUqKd">
+        <node concept="3XVKd2" id="6owOR_KX9KN" role="3XUqK6">
+          <node concept="3XUvcq" id="6owOR_KX9KO" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_0.dae" />
+            <node concept="3b6qkQ" id="6owOR_KX9KP" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9KQ" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9KR" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3XUqK8" id="6owOR_KX9KS" role="3XUqK9">
+        <node concept="3XVKd2" id="6owOR_KX9KT" role="3XUqNL">
+          <node concept="3XUvcq" id="6owOR_KX9KU" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_0.stl" />
+            <node concept="3b6qkQ" id="6owOR_KX9KV" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9KW" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9KX" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="u5KES" id="6owOR_KX9KY" role="3XQLF5">
+      <property role="1ZxufV" value="1" />
+      <property role="TrG5h" value="iiwa7_link_1" />
+      <property role="ULeZC" value="4" />
+      <node concept="ULbc9" id="6owOR_KX9KZ" role="2GTsxI">
+        <property role="TrG5h" value="frame_iiwa7_link_1_com" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="ULbc9" id="6owOR_KX9L0" role="2GTsxG">
+        <property role="TrG5h" value="frame_iiwa7_link_1_origin" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="u5YpI" id="6owOR_KX9L1" role="u5Yqj">
+        <node concept="u5KF$" id="6owOR_KX9L2" role="u5YpJ">
+          <node concept="3b6qkQ" id="6owOR_KX9L3" role="3XVZ8y">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9L4" role="3XVZ8J">
+            <property role="$nhwW" value="-0.03" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9L5" role="3XVZ8l">
+            <property role="$nhwW" value="0.12" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9L6" role="3XVZ8T">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9L7" role="3XVZ8V">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9L8" role="3XVZ8A">
+            <property role="$nhwW" value="0.0" />
+          </node>
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9L9" role="3XUmjV">
+          <property role="$nhwW" value="3.4525" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9La" role="3XUmjy">
+          <property role="$nhwW" value="0.02183" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Lb" role="3XUmjJ">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Lc" role="3XUmjl">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Ld" role="3XUmjs">
+          <property role="$nhwW" value="0.02081" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Le" role="3XUmj4">
+          <property role="$nhwW" value="0.003883" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Lf" role="3XUmjd">
+          <property role="$nhwW" value="0.007697" />
+        </node>
+      </node>
+      <node concept="3XVKd6" id="6owOR_KX9Lg" role="3XUqKd">
+        <node concept="3XVKd2" id="6owOR_KX9Lh" role="3XUqK6">
+          <node concept="3XUvcq" id="6owOR_KX9Li" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_1.dae" />
+            <node concept="3b6qkQ" id="6owOR_KX9Lj" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Lk" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Ll" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3XUqK8" id="6owOR_KX9Lm" role="3XUqK9">
+        <node concept="3XVKd2" id="6owOR_KX9Ln" role="3XUqNL">
+          <node concept="3XUvcq" id="6owOR_KX9Lo" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_1.stl" />
+            <node concept="3b6qkQ" id="6owOR_KX9Lp" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Lq" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Lr" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="u5KES" id="6owOR_KX9Ls" role="3XQLF5">
+      <property role="1ZxufV" value="2" />
+      <property role="TrG5h" value="iiwa7_link_2" />
+      <property role="ULeZC" value="4" />
+      <node concept="ULbc9" id="6owOR_KX9Lt" role="2GTsxI">
+        <property role="TrG5h" value="frame_iiwa7_link_2_com" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="ULbc9" id="6owOR_KX9Lu" role="2GTsxG">
+        <property role="TrG5h" value="frame_iiwa7_link_2_origin" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="u5YpI" id="6owOR_KX9Lv" role="u5Yqj">
+        <node concept="u5KF$" id="6owOR_KX9Lw" role="u5YpJ">
+          <node concept="3b6qkQ" id="6owOR_KX9Lx" role="3XVZ8y">
+            <property role="$nhwW" value="0.000" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9Ly" role="3XVZ8J">
+            <property role="$nhwW" value="0.034417" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9Lz" role="3XVZ8l">
+            <property role="$nhwW" value="0.0673286" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9L$" role="3XVZ8T">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9L_" role="3XVZ8V">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9LA" role="3XVZ8A">
+            <property role="$nhwW" value="0.0" />
+          </node>
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9LB" role="3XUmjV">
+          <property role="$nhwW" value="3.4821" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9LC" role="3XUmjy">
+          <property role="$nhwW" value="0.02177" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9LD" role="3XUmjJ">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9LE" role="3XUmjl">
+          <property role="$nhwW" value="0.00" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9LF" role="3XUmjs">
+          <property role="$nhwW" value="0.02075" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9LG" role="3XUmj4">
+          <property role="$nhwW" value="0.003621" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9LH" role="3XUmjd">
+          <property role="$nhwW" value="0.00779" />
+        </node>
+      </node>
+      <node concept="3XVKd6" id="6owOR_KX9LI" role="3XUqKd">
+        <node concept="3XVKd2" id="6owOR_KX9LJ" role="3XUqK6">
+          <node concept="3XUvcq" id="6owOR_KX9LK" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_2.dae" />
+            <node concept="3b6qkQ" id="6owOR_KX9LL" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9LM" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9LN" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3XUqK8" id="6owOR_KX9LO" role="3XUqK9">
+        <node concept="3XVKd2" id="6owOR_KX9LP" role="3XUqNL">
+          <node concept="3XUvcq" id="6owOR_KX9LQ" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_2.stl" />
+            <node concept="3b6qkQ" id="6owOR_KX9LR" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9LS" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9LT" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="u5KES" id="6owOR_KX9LU" role="3XQLF5">
+      <property role="1ZxufV" value="3" />
+      <property role="TrG5h" value="iiwa7_link_3" />
+      <property role="ULeZC" value="4" />
+      <node concept="ULbc9" id="6owOR_KX9LV" role="2GTsxI">
+        <property role="TrG5h" value="frame_iiwa7_link_3_com" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="ULbc9" id="6owOR_KX9LW" role="2GTsxG">
+        <property role="TrG5h" value="frame_iiwa7_link_3_origin" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="u5YpI" id="6owOR_KX9LX" role="u5Yqj">
+        <node concept="u5KF$" id="6owOR_KX9LY" role="u5YpJ">
+          <node concept="3b6qkQ" id="6owOR_KX9LZ" role="3XVZ8y">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9M0" role="3XVZ8J">
+            <property role="$nhwW" value="0.0295" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9M1" role="3XVZ8l">
+            <property role="$nhwW" value="0.1258" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9M2" role="3XVZ8T">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9M3" role="3XVZ8V">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9M4" role="3XVZ8A">
+            <property role="$nhwW" value="0.0" />
+          </node>
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9M5" role="3XUmjV">
+          <property role="$nhwW" value="4.05623" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9M6" role="3XUmjy">
+          <property role="$nhwW" value="0.03204" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9M7" role="3XUmjJ">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9M8" role="3XUmjl">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9M9" role="3XUmjs">
+          <property role="$nhwW" value="0.03044" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Ma" role="3XUmj4">
+          <property role="$nhwW" value="-0.006231" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Mb" role="3XUmjd">
+          <property role="$nhwW" value="0.009726" />
+        </node>
+      </node>
+      <node concept="3XVKd6" id="6owOR_KX9Mc" role="3XUqKd">
+        <node concept="3XVKd2" id="6owOR_KX9Md" role="3XUqK6">
+          <node concept="3XUvcq" id="6owOR_KX9Me" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_3.dae" />
+            <node concept="3b6qkQ" id="6owOR_KX9Mf" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Mg" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Mh" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3XUqK8" id="6owOR_KX9Mi" role="3XUqK9">
+        <node concept="3XVKd2" id="6owOR_KX9Mj" role="3XUqNL">
+          <node concept="3XUvcq" id="6owOR_KX9Mk" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_3.stl" />
+            <node concept="3b6qkQ" id="6owOR_KX9Ml" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Mm" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Mn" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="u5KES" id="6owOR_KX9Mo" role="3XQLF5">
+      <property role="1ZxufV" value="4" />
+      <property role="TrG5h" value="iiwa7_link_4" />
+      <property role="ULeZC" value="4" />
+      <node concept="ULbc9" id="6owOR_KX9Mp" role="2GTsxI">
+        <property role="TrG5h" value="frame_iiwa7_link_4_com" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="ULbc9" id="6owOR_KX9Mq" role="2GTsxG">
+        <property role="TrG5h" value="frame_iiwa7_link_4_origin" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="u5YpI" id="6owOR_KX9Mr" role="u5Yqj">
+        <node concept="u5KF$" id="6owOR_KX9Ms" role="u5YpJ">
+          <node concept="3b6qkQ" id="6owOR_KX9Mt" role="3XVZ8y">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9Mu" role="3XVZ8J">
+            <property role="$nhwW" value="-0.034" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9Mv" role="3XVZ8l">
+            <property role="$nhwW" value="0.067" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9Mw" role="3XVZ8T">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9Mx" role="3XVZ8V">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9My" role="3XVZ8A">
+            <property role="$nhwW" value="0.0" />
+          </node>
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Mz" role="3XUmjV">
+          <property role="$nhwW" value="3.4822" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9M$" role="3XUmjy">
+          <property role="$nhwW" value="0.021775" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9M_" role="3XUmjJ">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9MA" role="3XUmjl">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9MB" role="3XUmjs">
+          <property role="$nhwW" value="0.02075" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9MC" role="3XUmj4">
+          <property role="$nhwW" value="-0.003621" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9MD" role="3XUmjd">
+          <property role="$nhwW" value="0.007783" />
+        </node>
+      </node>
+      <node concept="3XVKd6" id="6owOR_KX9ME" role="3XUqKd">
+        <node concept="3XVKd2" id="6owOR_KX9MF" role="3XUqK6">
+          <node concept="3XUvcq" id="6owOR_KX9MG" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_4_y_z.obj" />
+            <node concept="3b6qkQ" id="6owOR_KX9MH" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9MI" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9MJ" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+        <node concept="3XVKd1" id="6owOR_KX9MK" role="3XUqK1">
+          <property role="TrG5h" value="white" />
+          <node concept="3XVKdd" id="6owOR_KX9ML" role="3XSv_L">
+            <node concept="3b6qkQ" id="6owOR_KX9MM" role="3XVKcZ">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9MN" role="3XVKcT">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9MO" role="3XVKc$">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9MP" role="3XVKcw">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3XUqK8" id="6owOR_KX9MQ" role="3XUqK9">
+        <node concept="3XVKd2" id="6owOR_KX9MR" role="3XUqNL">
+          <node concept="3XUvcq" id="6owOR_KX9MS" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_4.stl" />
+            <node concept="3b6qkQ" id="6owOR_KX9MT" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9MU" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9MV" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="u5KES" id="6owOR_KX9MW" role="3XQLF5">
+      <property role="1ZxufV" value="5" />
+      <property role="TrG5h" value="iiwa7_link_5" />
+      <property role="ULeZC" value="4" />
+      <node concept="ULbc9" id="6owOR_KX9MX" role="2GTsxI">
+        <property role="TrG5h" value="frame_iiwa7_link_5_com" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="ULbc9" id="6owOR_KX9MY" role="2GTsxG">
+        <property role="TrG5h" value="frame_iiwa7_link_5_origin" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="u5YpI" id="6owOR_KX9MZ" role="u5Yqj">
+        <node concept="u5KF$" id="6owOR_KX9N0" role="u5YpJ">
+          <node concept="3b6qkQ" id="6owOR_KX9N1" role="3XVZ8y">
+            <property role="$nhwW" value="0.0001" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9N2" role="3XVZ8J">
+            <property role="$nhwW" value="-0.02263" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9N3" role="3XVZ8l">
+            <property role="$nhwW" value="-0.1365" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9N4" role="3XVZ8T">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9N5" role="3XVZ8V">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9N6" role="3XVZ8A">
+            <property role="$nhwW" value="0.0" />
+          </node>
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9N7" role="3XUmjV">
+          <property role="$nhwW" value="2.1633" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9N8" role="3XUmjy">
+          <property role="$nhwW" value="0.01287" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9N9" role="3XUmjJ">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Na" role="3XUmjl">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Nb" role="3XUmjs">
+          <property role="$nhwW" value="0.01112" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Nc" role="3XUmj4">
+          <property role="$nhwW" value="0.003943" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Nd" role="3XUmjd">
+          <property role="$nhwW" value="0.0057128" />
+        </node>
+      </node>
+      <node concept="3XVKd6" id="6owOR_KX9Ne" role="3XUqKd">
+        <node concept="3XVKd2" id="6owOR_KX9Nf" role="3XUqK6">
+          <node concept="3XUvcq" id="6owOR_KX9Ng" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_5.dae" />
+            <node concept="3b6qkQ" id="6owOR_KX9Nh" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Ni" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Nj" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3XUqK8" id="6owOR_KX9Nk" role="3XUqK9">
+        <node concept="3XVKd2" id="6owOR_KX9Nl" role="3XUqNL">
+          <node concept="3XUvcq" id="6owOR_KX9Nm" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_5.stl" />
+            <node concept="3b6qkQ" id="6owOR_KX9Nn" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9No" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Np" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="u5KES" id="6owOR_KX9Nq" role="3XQLF5">
+      <property role="1ZxufV" value="6" />
+      <property role="TrG5h" value="iiwa7_link_6" />
+      <property role="ULeZC" value="4" />
+      <node concept="ULbc9" id="6owOR_KX9Nr" role="2GTsxI">
+        <property role="TrG5h" value="frame_iiwa7_link_6_com" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="ULbc9" id="6owOR_KX9Ns" role="2GTsxG">
+        <property role="TrG5h" value="frame_iiwa7_link_6_origin" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="u5YpI" id="6owOR_KX9Nt" role="u5Yqj">
+        <node concept="u5KF$" id="6owOR_KX9Nu" role="u5YpJ">
+          <node concept="3b6qkQ" id="6owOR_KX9Nv" role="3XVZ8y">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9Nw" role="3XVZ8J">
+            <property role="$nhwW" value="0.00047" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9Nx" role="3XVZ8l">
+            <property role="$nhwW" value="0.002124" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9Ny" role="3XVZ8T">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9Nz" role="3XVZ8V">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9N$" role="3XVZ8A">
+            <property role="$nhwW" value="0.0" />
+          </node>
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9N_" role="3XUmjV">
+          <property role="$nhwW" value="2.3466" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9NA" role="3XUmjy">
+          <property role="$nhwW" value="0.006522" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9NB" role="3XUmjJ">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9NC" role="3XUmjl">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9ND" role="3XUmjs">
+          <property role="$nhwW" value="0.006270" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9NE" role="3XUmj4">
+          <property role="$nhwW" value="0.00032280" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9NF" role="3XUmjd">
+          <property role="$nhwW" value="0.0045345" />
+        </node>
+      </node>
+      <node concept="3XVKd6" id="6owOR_KX9NG" role="3XUqKd">
+        <node concept="3XVKd2" id="6owOR_KX9NH" role="3XUqK6">
+          <node concept="3XUvcq" id="6owOR_KX9NI" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_6.dae" />
+            <node concept="3b6qkQ" id="6owOR_KX9NJ" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9NK" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9NL" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3XUqK8" id="6owOR_KX9NM" role="3XUqK9">
+        <node concept="3XVKd2" id="6owOR_KX9NN" role="3XUqNL">
+          <node concept="3XUvcq" id="6owOR_KX9NO" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_6.stl" />
+            <node concept="3b6qkQ" id="6owOR_KX9NP" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9NQ" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9NR" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="u5KES" id="6owOR_KX9NS" role="3XQLF5">
+      <property role="1ZxufV" value="7" />
+      <property role="TrG5h" value="iiwa7_link_7" />
+      <property role="ULeZC" value="4" />
+      <node concept="ULbc9" id="6owOR_KX9NT" role="2GTsxI">
+        <property role="TrG5h" value="frame_iiwa7_link_7_com" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="ULbc9" id="6owOR_KX9NU" role="2GTsxG">
+        <property role="TrG5h" value="frame_iiwa7_link_7_origin" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="u5YpI" id="6owOR_KX9NV" role="u5Yqj">
+        <node concept="u5KF$" id="6owOR_KX9NW" role="u5YpJ">
+          <node concept="3b6qkQ" id="6owOR_KX9NX" role="3XVZ8y">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9NY" role="3XVZ8J">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9NZ" role="3XVZ8l">
+            <property role="$nhwW" value="0.1" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9O0" role="3XVZ8T">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9O1" role="3XVZ8V">
+            <property role="$nhwW" value="0.0" />
+          </node>
+          <node concept="3b6qkQ" id="6owOR_KX9O2" role="3XVZ8A">
+            <property role="$nhwW" value="0.0" />
+          </node>
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9O3" role="3XUmjV">
+          <property role="$nhwW" value="3.129" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9O4" role="3XUmjy">
+          <property role="$nhwW" value="0.0022711" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9O5" role="3XUmjJ">
+          <property role="$nhwW" value="0.0000221" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9O6" role="3XUmjl">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9O7" role="3XUmjs">
+          <property role="$nhwW" value="0.0022807" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9O8" role="3XUmj4">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9O9" role="3XUmjd">
+          <property role="$nhwW" value="0.002872" />
+        </node>
+      </node>
+      <node concept="3XVKd6" id="6owOR_KX9Oa" role="3XUqKd">
+        <node concept="3XVKd2" id="6owOR_KX9Ob" role="3XUqK6">
+          <node concept="3XUvcq" id="6owOR_KX9Oc" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/visual/link_7.dae" />
+            <node concept="3b6qkQ" id="6owOR_KX9Od" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Oe" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Of" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3XUqK8" id="6owOR_KX9Og" role="3XUqK9">
+        <node concept="3XVKd2" id="6owOR_KX9Oh" role="3XUqNL">
+          <node concept="3XUvcq" id="6owOR_KX9Oi" role="3XUqNW">
+            <property role="3XUvce" value="/home/dwigand/code/cogimon/CoSimA/pyBullet/catkin_py_ws/src/py-flex-assembly/gym_flexassembly/data/robots/kuka-iiwa-7/meshes/collision/link_7.stl" />
+            <node concept="3b6qkQ" id="6owOR_KX9Oj" role="3XUvc5">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Ok" role="3XUvc7">
+              <property role="$nhwW" value="1.0" />
+            </node>
+            <node concept="3b6qkQ" id="6owOR_KX9Ol" role="3XUvc2">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="u5KES" id="6owOR_KX9Om" role="3XQLF5">
+      <property role="1ZxufV" value="8" />
+      <property role="TrG5h" value="ur_link_ee" />
+      <property role="ULeZC" value="4" />
+      <node concept="ULbc9" id="6owOR_KX9On" role="2GTsxI">
+        <property role="TrG5h" value="frame_ur_link_ee_com" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+      <node concept="ULbc9" id="6owOR_KX9Oo" role="2GTsxG">
+        <property role="TrG5h" value="frame_ur_link_ee_origin" />
+        <property role="ULeZE" value="-1" />
+        <property role="1ZUKBJ" value="true" />
+      </node>
+    </node>
+    <node concept="u5KEZ" id="6owOR_KX9Op" role="3XQLF5">
+      <property role="2M4ZYv" value="true" />
+      <property role="TrG5h" value="world_iiwa_joint" />
+      <property role="u5KFq" value="3Wmswgx0nzc/fixed" />
+      <ref role="u5Yp_" node="6owOR_KX9Kw" resolve="iiwa7_link_0" />
+      <ref role="u5Ypq" node="6owOR_KX9Kt" resolve="world" />
+      <node concept="u5KF$" id="6owOR_KX9Oq" role="u5Yps">
+        <node concept="3b6qkQ" id="6owOR_KX9Or" role="3XVZ8y">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Os" role="3XVZ8J">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Ot" role="3XVZ8l">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Ou" role="3XVZ8T">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Ov" role="3XVZ8V">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Ow" role="3XVZ8A">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+    </node>
+    <node concept="u5KEZ" id="6owOR_KX9Ox" role="3XQLF5">
+      <property role="2M4ZYv" value="true" />
+      <property role="TrG5h" value="iiwa7_joint_1" />
+      <ref role="u5Ypq" node="6owOR_KX9Kw" resolve="iiwa7_link_0" />
+      <ref role="u5Yp_" node="6owOR_KX9KY" resolve="iiwa7_link_1" />
+      <node concept="u5KF$" id="6owOR_KX9Oy" role="u5Yps">
+        <node concept="3b6qkQ" id="6owOR_KX9Oz" role="3XVZ8y">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9O$" role="3XVZ8J">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9O_" role="3XVZ8l">
+          <property role="$nhwW" value="0.157" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OA" role="3XVZ8T">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OB" role="3XVZ8V">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OC" role="3XVZ8A">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+      <node concept="3XUy9m" id="6owOR_KX9OD" role="3XUCWA">
+        <node concept="3b6qkQ" id="6owOR_KX9OE" role="3XUy9n">
+          <property role="$nhwW" value="300.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OF" role="3XUy9o">
+          <property role="$nhwW" value="1.71042266695" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OG" role="3XUy9h">
+          <property role="$nhwW" value="-2.96705972839" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OH" role="3XUy9s">
+          <property role="$nhwW" value="2.96705972839" />
+        </node>
+      </node>
+      <node concept="3XUA_L" id="6owOR_KX9OI" role="3XUCWO">
+        <node concept="3b6qkQ" id="6owOR_KX9OJ" role="3XUA_M">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OK" role="3XUA_W">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OL" role="3XUA_Z">
+          <property role="$nhwW" value="1.0" />
+        </node>
+      </node>
+      <node concept="3XUwiK" id="6owOR_KX9OM" role="3XUCWZ">
+        <node concept="3b6qkQ" id="6owOR_KX9ON" role="3XUwiN">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OO" role="3XUwiL">
+          <property role="$nhwW" value="0.5" />
+        </node>
+      </node>
+      <node concept="3XUGig" id="6owOR_KX9OP" role="3XUCWI">
+        <node concept="3b6qkQ" id="6owOR_KX9OQ" role="3XUGiq">
+          <property role="$nhwW" value="2.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OR" role="3XUGiu">
+          <property role="$nhwW" value="100.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OS" role="3XUGih">
+          <property role="$nhwW" value="-2.93215314335" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OT" role="3XUGij">
+          <property role="$nhwW" value="2.93215314335" />
+        </node>
+      </node>
+    </node>
+    <node concept="u5KEZ" id="6owOR_KX9OU" role="3XQLF5">
+      <property role="2M4ZYv" value="true" />
+      <property role="TrG5h" value="iiwa7_joint_2" />
+      <ref role="u5Yp_" node="6owOR_KX9Ls" resolve="iiwa7_link_2" />
+      <ref role="u5Ypq" node="6owOR_KX9KY" resolve="iiwa7_link_1" />
+      <node concept="u5KF$" id="6owOR_KX9OV" role="u5Yps">
+        <node concept="3b6qkQ" id="6owOR_KX9OW" role="3XVZ8y">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OX" role="3XVZ8J">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OY" role="3XVZ8l">
+          <property role="$nhwW" value="0.183" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9OZ" role="3XVZ8T">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9P0" role="3XVZ8V">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9P1" role="3XVZ8A">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+      <node concept="3XUy9m" id="6owOR_KX9P2" role="3XUCWA">
+        <node concept="3b6qkQ" id="6owOR_KX9P3" role="3XUy9n">
+          <property role="$nhwW" value="300.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9P4" role="3XUy9o">
+          <property role="$nhwW" value="1.71042266695" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9P5" role="3XUy9h">
+          <property role="$nhwW" value="-2.09439510239" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9P6" role="3XUy9s">
+          <property role="$nhwW" value="2.09439510239" />
+        </node>
+      </node>
+      <node concept="3XUA_L" id="6owOR_KX9P7" role="3XUCWO">
+        <node concept="3b6qkQ" id="6owOR_KX9P8" role="3XUA_M">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9P9" role="3XUA_W">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pa" role="3XUA_Z">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+      <node concept="3XUwiK" id="6owOR_KX9Pb" role="3XUCWZ">
+        <node concept="3b6qkQ" id="6owOR_KX9Pc" role="3XUwiN">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pd" role="3XUwiL">
+          <property role="$nhwW" value="0.5" />
+        </node>
+      </node>
+      <node concept="3XUGig" id="6owOR_KX9Pe" role="3XUCWI">
+        <node concept="3b6qkQ" id="6owOR_KX9Pf" role="3XUGiq">
+          <property role="$nhwW" value="2.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pg" role="3XUGiu">
+          <property role="$nhwW" value="100.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Ph" role="3XUGih">
+          <property role="$nhwW" value="-2.05948851735" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pi" role="3XUGij">
+          <property role="$nhwW" value="2.05948851735" />
+        </node>
+      </node>
+    </node>
+    <node concept="u5KEZ" id="6owOR_KX9Pj" role="3XQLF5">
+      <property role="2M4ZYv" value="true" />
+      <property role="TrG5h" value="iiwa7_joint_3" />
+      <ref role="u5Yp_" node="6owOR_KX9LU" resolve="iiwa7_link_3" />
+      <ref role="u5Ypq" node="6owOR_KX9Ls" resolve="iiwa7_link_2" />
+      <node concept="u5KF$" id="6owOR_KX9Pk" role="u5Yps">
+        <node concept="3b6qkQ" id="6owOR_KX9Pl" role="3XVZ8y">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pm" role="3XVZ8J">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pn" role="3XVZ8l">
+          <property role="$nhwW" value="0.185" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Po" role="3XVZ8T">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pp" role="3XVZ8V">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pq" role="3XVZ8A">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+      <node concept="3XUy9m" id="6owOR_KX9Pr" role="3XUCWA">
+        <node concept="3b6qkQ" id="6owOR_KX9Ps" role="3XUy9n">
+          <property role="$nhwW" value="300.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pt" role="3XUy9o">
+          <property role="$nhwW" value="1.74532925199" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pu" role="3XUy9h">
+          <property role="$nhwW" value="-2.96705972839" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pv" role="3XUy9s">
+          <property role="$nhwW" value="2.96705972839" />
+        </node>
+      </node>
+      <node concept="3XUA_L" id="6owOR_KX9Pw" role="3XUCWO">
+        <node concept="3b6qkQ" id="6owOR_KX9Px" role="3XUA_M">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Py" role="3XUA_W">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Pz" role="3XUA_Z">
+          <property role="$nhwW" value="1.0" />
+        </node>
+      </node>
+      <node concept="3XUwiK" id="6owOR_KX9P$" role="3XUCWZ">
+        <node concept="3b6qkQ" id="6owOR_KX9P_" role="3XUwiN">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PA" role="3XUwiL">
+          <property role="$nhwW" value="0.5" />
+        </node>
+      </node>
+      <node concept="3XUGig" id="6owOR_KX9PB" role="3XUCWI">
+        <node concept="3b6qkQ" id="6owOR_KX9PC" role="3XUGiq">
+          <property role="$nhwW" value="2.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PD" role="3XUGiu">
+          <property role="$nhwW" value="100.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PE" role="3XUGih">
+          <property role="$nhwW" value="-2.93215314335" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PF" role="3XUGij">
+          <property role="$nhwW" value="2.93215314335" />
+        </node>
+      </node>
+    </node>
+    <node concept="u5KEZ" id="6owOR_KX9PG" role="3XQLF5">
+      <property role="2M4ZYv" value="true" />
+      <property role="TrG5h" value="iiwa7_joint_4" />
+      <ref role="u5Ypq" node="6owOR_KX9LU" resolve="iiwa7_link_3" />
+      <ref role="u5Yp_" node="6owOR_KX9Mo" resolve="iiwa7_link_4" />
+      <node concept="u5KF$" id="6owOR_KX9PH" role="u5Yps">
+        <node concept="3b6qkQ" id="6owOR_KX9PI" role="3XVZ8y">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PJ" role="3XVZ8J">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PK" role="3XVZ8l">
+          <property role="$nhwW" value="0.215" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PL" role="3XVZ8T">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PM" role="3XVZ8V">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PN" role="3XVZ8A">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+      <node concept="3XUy9m" id="6owOR_KX9PO" role="3XUCWA">
+        <node concept="3b6qkQ" id="6owOR_KX9PP" role="3XUy9n">
+          <property role="$nhwW" value="300.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PQ" role="3XUy9o">
+          <property role="$nhwW" value="2.26892802759" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PR" role="3XUy9h">
+          <property role="$nhwW" value="-2.09439510239" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PS" role="3XUy9s">
+          <property role="$nhwW" value="2.09439510239" />
+        </node>
+      </node>
+      <node concept="3XUA_L" id="6owOR_KX9PT" role="3XUCWO">
+        <node concept="3b6qkQ" id="6owOR_KX9PU" role="3XUA_M">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PV" role="3XUA_W">
+          <property role="$nhwW" value="-1.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PW" role="3XUA_Z">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+      <node concept="3XUwiK" id="6owOR_KX9PX" role="3XUCWZ">
+        <node concept="3b6qkQ" id="6owOR_KX9PY" role="3XUwiN">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9PZ" role="3XUwiL">
+          <property role="$nhwW" value="0.5" />
+        </node>
+      </node>
+      <node concept="3XUGig" id="6owOR_KX9Q0" role="3XUCWI">
+        <node concept="3b6qkQ" id="6owOR_KX9Q1" role="3XUGiq">
+          <property role="$nhwW" value="2.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Q2" role="3XUGiu">
+          <property role="$nhwW" value="100.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Q3" role="3XUGih">
+          <property role="$nhwW" value="-2.05948851735" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Q4" role="3XUGij">
+          <property role="$nhwW" value="2.05948851735" />
+        </node>
+      </node>
+    </node>
+    <node concept="u5KEZ" id="6owOR_KX9Q5" role="3XQLF5">
+      <property role="2M4ZYv" value="true" />
+      <property role="TrG5h" value="iiwa7_joint_5" />
+      <ref role="u5Yp_" node="6owOR_KX9MW" resolve="iiwa7_link_5" />
+      <ref role="u5Ypq" node="6owOR_KX9Mo" resolve="iiwa7_link_4" />
+      <node concept="u5KF$" id="6owOR_KX9Q6" role="u5Yps">
+        <node concept="3b6qkQ" id="6owOR_KX9Q7" role="3XVZ8y">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Q8" role="3XVZ8J">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Q9" role="3XVZ8l">
+          <property role="$nhwW" value="0.4" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qa" role="3XVZ8T">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qb" role="3XVZ8V">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qc" role="3XVZ8A">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+      <node concept="3XUy9m" id="6owOR_KX9Qd" role="3XUCWA">
+        <node concept="3b6qkQ" id="6owOR_KX9Qe" role="3XUy9n">
+          <property role="$nhwW" value="300.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qf" role="3XUy9o">
+          <property role="$nhwW" value="2.44346095279" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qg" role="3XUy9h">
+          <property role="$nhwW" value="-2.96705972839" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qh" role="3XUy9s">
+          <property role="$nhwW" value="2.96705972839" />
+        </node>
+      </node>
+      <node concept="3XUA_L" id="6owOR_KX9Qi" role="3XUCWO">
+        <node concept="3b6qkQ" id="6owOR_KX9Qj" role="3XUA_M">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qk" role="3XUA_W">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Ql" role="3XUA_Z">
+          <property role="$nhwW" value="1.0" />
+        </node>
+      </node>
+      <node concept="3XUwiK" id="6owOR_KX9Qm" role="3XUCWZ">
+        <node concept="3b6qkQ" id="6owOR_KX9Qn" role="3XUwiN">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qo" role="3XUwiL">
+          <property role="$nhwW" value="0.5" />
+        </node>
+      </node>
+      <node concept="3XUGig" id="6owOR_KX9Qp" role="3XUCWI">
+        <node concept="3b6qkQ" id="6owOR_KX9Qq" role="3XUGiq">
+          <property role="$nhwW" value="2.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qr" role="3XUGiu">
+          <property role="$nhwW" value="100.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qs" role="3XUGih">
+          <property role="$nhwW" value="-2.93215314335" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qt" role="3XUGij">
+          <property role="$nhwW" value="2.93215314335" />
+        </node>
+      </node>
+    </node>
+    <node concept="u5KEZ" id="6owOR_KX9Qu" role="3XQLF5">
+      <property role="2M4ZYv" value="true" />
+      <property role="TrG5h" value="iiwa7_joint_6" />
+      <ref role="u5Ypq" node="6owOR_KX9MW" resolve="iiwa7_link_5" />
+      <ref role="u5Yp_" node="6owOR_KX9Nq" resolve="iiwa7_link_6" />
+      <node concept="u5KF$" id="6owOR_KX9Qv" role="u5Yps">
+        <node concept="3b6qkQ" id="6owOR_KX9Qw" role="3XVZ8y">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qx" role="3XVZ8J">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qy" role="3XVZ8l">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Qz" role="3XVZ8T">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Q$" role="3XVZ8V">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Q_" role="3XVZ8A">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+      <node concept="3XUy9m" id="6owOR_KX9QA" role="3XUCWA">
+        <node concept="3b6qkQ" id="6owOR_KX9QB" role="3XUy9n">
+          <property role="$nhwW" value="300.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QC" role="3XUy9o">
+          <property role="$nhwW" value="3.14159265359" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QD" role="3XUy9h">
+          <property role="$nhwW" value="-2.09439510239" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QE" role="3XUy9s">
+          <property role="$nhwW" value="2.09439510239" />
+        </node>
+      </node>
+      <node concept="3XUA_L" id="6owOR_KX9QF" role="3XUCWO">
+        <node concept="3b6qkQ" id="6owOR_KX9QG" role="3XUA_M">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QH" role="3XUA_W">
+          <property role="$nhwW" value="1.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QI" role="3XUA_Z">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+      <node concept="3XUwiK" id="6owOR_KX9QJ" role="3XUCWZ">
+        <node concept="3b6qkQ" id="6owOR_KX9QK" role="3XUwiN">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QL" role="3XUwiL">
+          <property role="$nhwW" value="0.5" />
+        </node>
+      </node>
+      <node concept="3XUGig" id="6owOR_KX9QM" role="3XUCWI">
+        <node concept="3b6qkQ" id="6owOR_KX9QN" role="3XUGiq">
+          <property role="$nhwW" value="2.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QO" role="3XUGiu">
+          <property role="$nhwW" value="100.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QP" role="3XUGih">
+          <property role="$nhwW" value="-2.05948851735" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QQ" role="3XUGij">
+          <property role="$nhwW" value="2.05948851735" />
+        </node>
+      </node>
+    </node>
+    <node concept="u5KEZ" id="6owOR_KX9QR" role="3XQLF5">
+      <property role="2M4ZYv" value="true" />
+      <property role="TrG5h" value="iiwa7_joint_7" />
+      <ref role="u5Yp_" node="6owOR_KX9NS" resolve="iiwa7_link_7" />
+      <ref role="u5Ypq" node="6owOR_KX9Nq" resolve="iiwa7_link_6" />
+      <node concept="u5KF$" id="6owOR_KX9QS" role="u5Yps">
+        <node concept="3b6qkQ" id="6owOR_KX9QT" role="3XVZ8y">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QU" role="3XVZ8J">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QV" role="3XVZ8l">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QW" role="3XVZ8T">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QX" role="3XVZ8V">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9QY" role="3XVZ8A">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+      <node concept="3XUy9m" id="6owOR_KX9QZ" role="3XUCWA">
+        <node concept="3b6qkQ" id="6owOR_KX9R0" role="3XUy9n">
+          <property role="$nhwW" value="300.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9R1" role="3XUy9o">
+          <property role="$nhwW" value="3.14159265359" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9R2" role="3XUy9h">
+          <property role="$nhwW" value="-3.05432619099" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9R3" role="3XUy9s">
+          <property role="$nhwW" value="3.05432619099" />
+        </node>
+      </node>
+      <node concept="3XUA_L" id="6owOR_KX9R4" role="3XUCWO">
+        <node concept="3b6qkQ" id="6owOR_KX9R5" role="3XUA_M">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9R6" role="3XUA_W">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9R7" role="3XUA_Z">
+          <property role="$nhwW" value="1.0" />
+        </node>
+      </node>
+      <node concept="3XUwiK" id="6owOR_KX9R8" role="3XUCWZ">
+        <node concept="3b6qkQ" id="6owOR_KX9R9" role="3XUwiN">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Ra" role="3XUwiL">
+          <property role="$nhwW" value="0.5" />
+        </node>
+      </node>
+      <node concept="3XUGig" id="6owOR_KX9Rb" role="3XUCWI">
+        <node concept="3b6qkQ" id="6owOR_KX9Rc" role="3XUGiq">
+          <property role="$nhwW" value="2.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Rd" role="3XUGiu">
+          <property role="$nhwW" value="100.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Re" role="3XUGih">
+          <property role="$nhwW" value="-3.01941960595" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Rf" role="3XUGij">
+          <property role="$nhwW" value="3.01941960595" />
+        </node>
+      </node>
+    </node>
+    <node concept="u5KEZ" id="6owOR_KX9Rg" role="3XQLF5">
+      <property role="2M4ZYv" value="true" />
+      <property role="TrG5h" value="ur_joint_ee" />
+      <property role="u5KFq" value="3Wmswgx0nzc/fixed" />
+      <ref role="u5Ypq" node="6owOR_KX9NS" resolve="iiwa7_link_7" />
+      <ref role="u5Yp_" node="6owOR_KX9Om" resolve="ur_link_ee" />
+      <node concept="u5KF$" id="6owOR_KX9Rh" role="u5Yps">
+        <node concept="3b6qkQ" id="6owOR_KX9Ri" role="3XVZ8y">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Rj" role="3XVZ8J">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Rk" role="3XVZ8l">
+          <property role="$nhwW" value="0.126" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Rl" role="3XVZ8T">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Rm" role="3XVZ8V">
+          <property role="$nhwW" value="0.0" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KX9Rn" role="3XVZ8A">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

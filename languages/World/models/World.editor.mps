@@ -488,6 +488,7 @@
           <node concept="VPM3Z" id="48FzSx93LFy" role="3F10Kt" />
           <node concept="1sVBvm" id="48FzSx93LE_" role="1sWHZn">
             <node concept="3F1sOY" id="48FzSx93LEL" role="2wV5jI">
+              <property role="1$x2rV" value="at world's origin" />
               <ref role="1NtTu8" to="t5d6:2SHk79Aerep" resolve="initialPose" />
             </node>
           </node>
@@ -611,54 +612,74 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0ifn" id="48FzSx91qM6" role="3EZMnx">
-        <property role="3F0ifm" value="Natural Constraints:" />
-        <node concept="pVoyu" id="48FzSx91qNi" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VSNWy" id="48FzSx93WLV" role="3F10Kt">
-          <property role="1lJzqX" value="14" />
-        </node>
-      </node>
-      <node concept="35HoNQ" id="48FzSx947E7" role="3EZMnx">
-        <node concept="pVoyu" id="48FzSx947Fj" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VPM3Z" id="48FzSx94iSH" role="3F10Kt" />
-        <node concept="xShMh" id="48FzSx94iSI" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+      <node concept="1X3_iC" id="6owOR_KQSHu" role="lGtFl">
+        <property role="3V$3am" value="childCellModel" />
+        <property role="3V$3ak" value="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389446423/1073389446424" />
+        <node concept="3F0ifn" id="48FzSx91qM6" role="8Wnug">
+          <property role="3F0ifm" value="Natural Constraints:" />
+          <node concept="pVoyu" id="48FzSx91qNi" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="VSNWy" id="48FzSx93WLV" role="3F10Kt">
+            <property role="1lJzqX" value="14" />
+          </node>
         </node>
       </node>
-      <node concept="3F2HdR" id="48FzSx91qNJ" role="3EZMnx">
-        <ref role="1NtTu8" to="t5d6:496x6PSwB63" resolve="natural_constraints" />
-        <node concept="l2Vlx" id="48FzSx91qNL" role="2czzBx" />
-        <node concept="pj6Ft" id="48FzSx91qOd" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="pVoyu" id="48FzSx91qOf" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="35HoNQ" id="5UFYq0ixD0g" role="3EZMnx">
-        <node concept="pVoyu" id="5UFYq0iypnT" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VPM3Z" id="5UFYq0iypnU" role="3F10Kt" />
-        <node concept="xShMh" id="5UFYq0iypnV" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+      <node concept="1X3_iC" id="6owOR_KQSHv" role="lGtFl">
+        <property role="3V$3am" value="childCellModel" />
+        <property role="3V$3ak" value="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389446423/1073389446424" />
+        <node concept="35HoNQ" id="48FzSx947E7" role="8Wnug">
+          <node concept="pVoyu" id="48FzSx947Fj" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="VPM3Z" id="48FzSx94iSH" role="3F10Kt" />
+          <node concept="xShMh" id="48FzSx94iSI" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
       </node>
-      <node concept="35HoNQ" id="5UFYq0iy1ck" role="3EZMnx">
-        <node concept="pVoyu" id="5UFYq0iypnZ" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+      <node concept="1X3_iC" id="6owOR_KQSHw" role="lGtFl">
+        <property role="3V$3am" value="childCellModel" />
+        <property role="3V$3ak" value="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389446423/1073389446424" />
+        <node concept="3F2HdR" id="48FzSx91qNJ" role="8Wnug">
+          <ref role="1NtTu8" to="t5d6:496x6PSwB63" resolve="natural_constraints" />
+          <node concept="l2Vlx" id="48FzSx91qNL" role="2czzBx" />
+          <node concept="pj6Ft" id="48FzSx91qOd" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="pVoyu" id="48FzSx91qOf" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
-        <node concept="VPM3Z" id="5UFYq0iypo0" role="3F10Kt" />
-        <node concept="xShMh" id="5UFYq0iypo1" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+      </node>
+      <node concept="1X3_iC" id="6owOR_KQSHx" role="lGtFl">
+        <property role="3V$3am" value="childCellModel" />
+        <property role="3V$3ak" value="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389446423/1073389446424" />
+        <node concept="35HoNQ" id="5UFYq0ixD0g" role="8Wnug">
+          <node concept="pVoyu" id="5UFYq0iypnT" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="VPM3Z" id="5UFYq0iypnU" role="3F10Kt" />
+          <node concept="xShMh" id="5UFYq0iypnV" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="1X3_iC" id="6owOR_KQSHy" role="lGtFl">
+        <property role="3V$3am" value="childCellModel" />
+        <property role="3V$3ak" value="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389446423/1073389446424" />
+        <node concept="35HoNQ" id="5UFYq0iy1ck" role="8Wnug">
+          <node concept="pVoyu" id="5UFYq0iypnZ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="VPM3Z" id="5UFYq0iypo0" role="3F10Kt" />
+          <node concept="xShMh" id="5UFYq0iypo1" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
       </node>
       <node concept="3F0ifn" id="5UFYq0ixCWX" role="3EZMnx">
-        <property role="3F0ifm" value="Artificial Constraints:" />
+        <property role="3F0ifm" value="Interaction Constraints:" />
         <node concept="pVoyu" id="5UFYq0ixCWY" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>

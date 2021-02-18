@@ -55,7 +55,6 @@
         <child id="7247560412587145511" name="origin" index="2GT3zG" />
         <child id="4775650060581091180" name="physicalEntities" index="ULbc1" />
         <child id="4775650060581091182" name="virtualEntities" index="ULbc3" />
-        <child id="4775650060581106051" name="natural_constraints" index="ULfnI" />
         <child id="6821820526483537316" name="artificial_constraints" index="1cbKg4" />
       </concept>
       <concept id="4775650060581091172" name="World.structure.NamedFrame" flags="ng" index="ULbc9" />
@@ -120,7 +119,7 @@
   <node concept="ULbc8" id="qYWbB1Fst4">
     <property role="2BUcBB" value="-1" />
     <property role="TrG5h" value="BoxGrasping" />
-    <node concept="bh3i$" id="qYWbB1Fswt" role="ULfnI">
+    <node concept="bh3i$" id="qYWbB1Fswt" role="1cbKg4">
       <property role="TrG5h" value="vmc1" />
       <property role="bl$8o" value="JfXaG0ArqF/Bilateral" />
       <property role="bl$8u" value="JfXaG0ArqF/Bilateral" />
@@ -132,13 +131,10 @@
       <property role="373uUg" value="qYWbB1Jc2z/Custom" />
       <ref role="bqiko" node="3gyK6Xv0EW3" resolve="robot1" />
       <ref role="bh3iV" node="3gyK6Xv0EX7" resolve="frame_compliance1" />
-      <ref role="bqI_4" node="qYWbB1Jf4n" resolve="cube" />
       <ref role="bh3iU" node="qYWbB1Jflv" resolve="frame_cube_surface_1" />
-      <node concept="t5JxF" id="qYWbB1I_BP" role="lGtFl">
-        <property role="t5JxN" value="First robot contact with the cube." />
-      </node>
+      <ref role="bqI_4" node="qYWbB1Jf4n" resolve="cube" />
     </node>
-    <node concept="bh3i$" id="qYWbB1JfoH" role="ULfnI">
+    <node concept="bh3i$" id="qYWbB1JfoH" role="1cbKg4">
       <property role="TrG5h" value="vmc2" />
       <property role="373uUb" value="qYWbB1Jc2z/Custom" />
       <property role="373uUg" value="qYWbB1Jc2z/Custom" />
@@ -148,10 +144,10 @@
       <property role="bl$8n" value="JfXaG0ArqF/Bilateral" />
       <property role="bl$9E" value="JfXaG0ArqF/Bilateral" />
       <property role="bl$9G" value="JfXaG0ArqF/Bilateral" />
-      <ref role="bh3iV" node="qYWbB1Jfkr" resolve="frame_compliance2" />
       <ref role="bqiko" node="qYWbB1Jfjc" resolve="robot2" />
-      <ref role="bqI_4" node="qYWbB1Jf4n" resolve="cube" />
       <ref role="bh3iU" node="qYWbB1Jfnh" resolve="frame_cube_surface_2" />
+      <ref role="bqI_4" node="qYWbB1Jf4n" resolve="cube" />
+      <ref role="bh3iV" node="qYWbB1Jfkr" resolve="frame_compliance2" />
     </node>
     <node concept="1EVldP" id="qYWbB1Jfp6" role="1cbKg4">
       <property role="TrG5h" value="vm1" />
@@ -464,6 +460,9 @@
     </node>
     <node concept="t5JxF" id="qYWbB1Jbtv" role="lGtFl">
       <property role="t5JxN" value="Applied a force of 1N in world X" />
+    </node>
+    <node concept="t5JxF" id="qYWbB1I_BP" role="lGtFl">
+      <property role="t5JxN" value="First robot contact with the cube." />
     </node>
   </node>
 </model>

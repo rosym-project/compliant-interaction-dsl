@@ -64,7 +64,6 @@
         <child id="7247560412587145511" name="origin" index="2GT3zG" />
         <child id="4775650060581091180" name="physicalEntities" index="ULbc1" />
         <child id="4775650060581091182" name="virtualEntities" index="ULbc3" />
-        <child id="4775650060581106051" name="natural_constraints" index="ULfnI" />
         <child id="6821820526483537316" name="artificial_constraints" index="1cbKg4" />
       </concept>
       <concept id="4775650060581091172" name="World.structure.NamedFrame" flags="ng" index="ULbc9" />
@@ -131,6 +130,19 @@
   <node concept="ULbc8" id="qYWbB1Fst4">
     <property role="2BUcBB" value="-1" />
     <property role="TrG5h" value="WallPressing" />
+    <node concept="bh3i$" id="qYWbB1Fswt" role="1cbKg4">
+      <property role="TrG5h" value="wallContact1" />
+      <property role="bl$8j" value="JfXaG0ArqF/Bilateral" />
+      <property role="bl$8n" value="JfXaG0ArqF/Bilateral" />
+      <property role="bl$9E" value="JfXaG0ArqF/Bilateral" />
+      <ref role="bh3iU" node="qYWbB1GLl7" resolve="frame_wall_surface1" />
+      <ref role="bh3iV" node="3gyK6Xv0EX7" resolve="frame_compliance" />
+      <ref role="bqiko" node="3gyK6Xv0EW3" resolve="robot" />
+      <ref role="bqI_4" node="qYWbB1FsBz" resolve="wall" />
+      <node concept="t5JxF" id="qYWbB1I_BP" role="lGtFl">
+        <property role="t5JxN" value="Model a natural surface contact with a wall." />
+      </node>
+    </node>
     <node concept="bDyhG" id="qYWbB1IyPh" role="1cbKg4">
       <property role="TrG5h" value="force1" />
       <ref role="bDyhz" node="3gyK6Xv0EX7" resolve="frame_compliance" />
@@ -297,19 +309,6 @@
       <property role="TrG5h" value="origin" />
       <property role="185efC" value="true" />
     </node>
-    <node concept="bh3i$" id="qYWbB1Fswt" role="ULfnI">
-      <property role="TrG5h" value="wallContact1" />
-      <property role="bl$8j" value="JfXaG0ArqF/Bilateral" />
-      <property role="bl$8n" value="JfXaG0ArqF/Bilateral" />
-      <property role="bl$9E" value="JfXaG0ArqF/Bilateral" />
-      <ref role="bh3iV" node="3gyK6Xv0EX7" resolve="frame_compliance" />
-      <ref role="bqiko" node="3gyK6Xv0EW3" resolve="robot" />
-      <ref role="bqI_4" node="qYWbB1FsBz" resolve="wall" />
-      <ref role="bh3iU" node="qYWbB1GLl7" resolve="frame_wall_surface1" />
-      <node concept="t5JxF" id="qYWbB1I_BP" role="lGtFl">
-        <property role="t5JxN" value="Model a natural surface contact with a wall." />
-      </node>
-    </node>
   </node>
   <node concept="btvZb" id="3gyK6Xv0F2u">
     <property role="TrG5h" value="LinearCartesianTrajectory" />
@@ -375,6 +374,19 @@
   <node concept="ULbc8" id="qYWbB1J8aU">
     <property role="2BUcBB" value="-1" />
     <property role="TrG5h" value="WallWiping" />
+    <node concept="bh3i$" id="qYWbB1J8bL" role="1cbKg4">
+      <property role="TrG5h" value="wallContact1" />
+      <property role="bl$8j" value="JfXaG0ArqF/Bilateral" />
+      <property role="bl$8n" value="JfXaG0ArqF/Bilateral" />
+      <property role="bl$9E" value="JfXaG0ArqF/Bilateral" />
+      <ref role="bh3iU" node="qYWbB1J8bz" resolve="frame_wall_com" />
+      <ref role="bqiko" node="qYWbB1J8bn" resolve="robot" />
+      <ref role="bqI_4" node="qYWbB1J8by" resolve="wall" />
+      <ref role="bh3iV" node="qYWbB1J8b4" resolve="frame_compliance" />
+      <node concept="t5JxF" id="qYWbB1J8bM" role="lGtFl">
+        <property role="t5JxN" value="Modeling a natural surface contact with a wall." />
+      </node>
+    </node>
     <node concept="bDyhG" id="qYWbB1J8aV" role="1cbKg4">
       <property role="TrG5h" value="force1" />
       <ref role="bDyhy" node="qYWbB1J8b4" resolve="frame_compliance" />
@@ -441,7 +453,7 @@
         </node>
       </node>
       <node concept="t5JxF" id="qYWbB1J8$c" role="lGtFl">
-        <property role="t5JxN" value="Realize the motion behavior for the wiping task." />
+        <property role="t5JxN" value="Realizing the motion behavior for the wiping task." />
       </node>
     </node>
     <node concept="ULbc9" id="qYWbB1J8b4" role="ULbc3">
@@ -477,7 +489,7 @@
     <node concept="ULbc9" id="qYWbB1J8be" role="ULbc3">
       <property role="TrG5h" value="frame_wall_surface1" />
       <node concept="3pTqNd" id="qYWbB1J8bf" role="185efF">
-        <ref role="baQku" node="qYWbB1J8be" resolve="frame_wall_surface1" />
+        <ref role="baQku" node="qYWbB1J8b$" resolve="frame_wall_origin" />
         <node concept="3b6qkQ" id="qYWbB1J8bg" role="21qWmj">
           <property role="$nhwW" value="0.0" />
         </node>
@@ -591,19 +603,6 @@
       <property role="ULeZE" value="-1" />
       <property role="TrG5h" value="origin" />
       <property role="185efC" value="true" />
-    </node>
-    <node concept="bh3i$" id="qYWbB1J8bL" role="ULfnI">
-      <property role="TrG5h" value="wallContact1" />
-      <property role="bl$8j" value="JfXaG0ArqF/Bilateral" />
-      <property role="bl$8n" value="JfXaG0ArqF/Bilateral" />
-      <property role="bl$9E" value="JfXaG0ArqF/Bilateral" />
-      <ref role="bqiko" node="qYWbB1J8bn" resolve="robot" />
-      <ref role="bqI_4" node="qYWbB1J8by" resolve="wall" />
-      <ref role="bh3iU" node="qYWbB1J8bz" resolve="frame_wall_com" />
-      <ref role="bh3iV" node="qYWbB1J8b4" resolve="frame_compliance" />
-      <node concept="t5JxF" id="qYWbB1J8bM" role="lGtFl">
-        <property role="t5JxN" value="Model a natural surface contact with a wall." />
-      </node>
     </node>
   </node>
 </model>

@@ -4,9 +4,11 @@
   <languages>
     <use id="2f1590a7-be3b-42ac-86c9-c109178e746f" name="World" version="0" />
     <use id="d6881f78-a85d-4c9e-931e-30879e67afdd" name="Kinematics" version="0" />
+    <use id="927dc671-3400-40d1-b22c-b8dda2957427" name="CompliantInteraction" version="0" />
   </languages>
   <imports>
     <import index="xsbx" ref="r:ef9cfe33-84eb-410f-ad3a-77b5f18c7124(CompliantInteraction.kinematics)" />
+    <import index="6tj8" ref="r:cabdfcef-f40e-4383-be95-337eb1df2216(CompliantInteraction.typesystem)" />
   </imports>
   <registry>
     <language id="2f1590a7-be3b-42ac-86c9-c109178e746f" name="World">
@@ -66,7 +68,6 @@
         <child id="7247560412587145511" name="origin" index="2GT3zG" />
         <child id="4775650060581091180" name="physicalEntities" index="ULbc1" />
         <child id="4775650060581091182" name="virtualEntities" index="ULbc3" />
-        <child id="4775650060581106051" name="natural_constraints" index="ULfnI" />
         <child id="6821820526483537316" name="artificial_constraints" index="1cbKg4" />
       </concept>
       <concept id="4775650060581091172" name="World.structure.NamedFrame" flags="ng" index="ULbc9" />
@@ -112,6 +113,24 @@
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
         <property id="1113006610751" name="value" index="$nhwW" />
+      </concept>
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
+    </language>
+    <language id="927dc671-3400-40d1-b22c-b8dda2957427" name="CompliantInteraction">
+      <concept id="7359114309662382641" name="CompliantInteraction.structure.GuardFromConstraint" flags="ng" index="mMO_8">
+        <reference id="7359114309662382644" name="constraint" index="mMO_d" />
+        <child id="7359114309662426030" name="exp" index="mN93n" />
+      </concept>
+      <concept id="7359114309662442850" name="CompliantInteraction.structure.GuardDataExpression" flags="ng" index="mN5or">
+        <property id="7359114309662515157" name="index" index="mNkMG" />
+      </concept>
+      <concept id="4775650060581090235" name="CompliantInteraction.structure.ContactSituation" flags="ng" index="ULbvm">
+        <reference id="4775650060581105501" name="world" index="ULeGK" />
+        <child id="7359114309662382442" name="incoming_guards" index="mMOCj" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -257,6 +276,7 @@
       </node>
     </node>
     <node concept="bDyhG" id="JfXaG0qO1F" role="1cbKg4">
+      <property role="TrG5h" value="ff1" />
       <ref role="bDyhz" to="xsbx:4ejUrJLv1zI" resolve="frame_SchunkEGP40_link_origin" />
       <ref role="bDyhy" to="xsbx:4ejUrJLv1zI" resolve="frame_SchunkEGP40_link_origin" />
       <node concept="3b6qkQ" id="5Bw69X2ozmS" role="bDyhB">
@@ -264,6 +284,7 @@
       </node>
     </node>
     <node concept="bDyhG" id="1VWTTE87NTO" role="1cbKg4">
+      <property role="TrG5h" value="ff2" />
       <ref role="bDyhz" to="xsbx:4ejUrJLv1zI" resolve="frame_SchunkEGP40_link_origin" />
       <ref role="bDyhy" node="2SHk79Af5j8" resolve="origin" />
       <node concept="3b6qkQ" id="1VWTTE87NU2" role="bDyhx">
@@ -271,6 +292,7 @@
       </node>
     </node>
     <node concept="buQiW" id="JfXaG0HCUG" role="1cbKg4">
+      <property role="TrG5h" value="mm1" />
       <ref role="buRHl" to="xsbx:4ejUrJLv1zI" resolve="frame_SchunkEGP40_link_origin" />
       <ref role="buRHk" node="2SHk79Af5ix" resolve="frame1" />
       <node concept="buOiU" id="1VWTTE87NU7" role="buOib">
@@ -330,6 +352,29 @@
   <node concept="ULbc8" id="5S14dUpPrZK">
     <property role="TrG5h" value="TableWiping2" />
     <property role="2BUcBB" value="-1" />
+    <node concept="bh3i$" id="5S14dUpPs1m" role="1cbKg4">
+      <property role="bl$8o" value="JfXaG0AOie/Unconstraint" />
+      <property role="bl$9G" value="JfXaG0AOie/Unconstraint" />
+      <property role="bl$9E" value="JfXaG0ArqF/Bilateral" />
+      <property role="bl$8n" value="JfXaG0ArqF/Bilateral" />
+      <property role="bl$8j" value="JfXaG0ArqF/Bilateral" />
+      <property role="bl$8u" value="JfXaG0AOie/Unconstraint" />
+      <property role="TrG5h" value="c1" />
+      <ref role="bqiko" node="5S14dUpPs0j" resolve="KUKALeft" />
+      <ref role="bqI_4" node="3gyK6Xv09XI" resolve="cube" />
+      <ref role="bh3iU" node="3gyK6Xv09ZF" resolve="cubeSide1" />
+      <ref role="bh3iV" node="5S14dUpPui2" resolve="eef" />
+    </node>
+    <node concept="bh3i$" id="3gyK6Xv09Tc" role="1cbKg4">
+      <property role="TrG5h" value="c2" />
+      <property role="bl$8j" value="JfXaG0ArqF/Bilateral" />
+      <property role="bl$8n" value="JfXaG0ArqF/Bilateral" />
+      <property role="bl$9E" value="JfXaG0ArqF/Bilateral" />
+      <ref role="bh3iV" to="xsbx:3gyK6XuNSzz" resolve="frame_iiwa14_link_ee_origin" />
+      <ref role="bqiko" node="3gyK6XuNS2d" resolve="KUKARight" />
+      <ref role="bh3iU" node="3gyK6Xv0a1P" resolve="cubeSide2" />
+      <ref role="bqI_4" node="3gyK6Xv09XI" resolve="cube" />
+    </node>
     <node concept="1EVldP" id="3gyK6XuS40D" role="1cbKg4">
       <property role="TrG5h" value="vm1" />
       <property role="1EYkUw" value="3gyK6XuQSVe/ForceClosure" />
@@ -553,7 +598,7 @@
     <node concept="ULbc9" id="5S14dUpPui2" role="ULbc3">
       <property role="TrG5h" value="eef" />
       <node concept="3pTqNd" id="5S14dUpPuio" role="185efF">
-        <ref role="baQku" to="xsbx:4yM1uW6A3U2" resolve="frame_iiwa7_link_ee_origin" />
+        <ref role="baQku" to="xsbx:6owOR_KX9Oo" resolve="frame_ur_link_ee_origin" />
         <node concept="3b6qkQ" id="5S14dUpPuip" role="21qWmj">
           <property role="$nhwW" value="0.0" />
         </node>
@@ -742,29 +787,6 @@
         </node>
       </node>
     </node>
-    <node concept="bh3i$" id="5S14dUpPs1m" role="ULfnI">
-      <property role="bl$8o" value="JfXaG0AOie/Unconstraint" />
-      <property role="bl$9G" value="JfXaG0AOie/Unconstraint" />
-      <property role="bl$9E" value="JfXaG0ArqF/Bilateral" />
-      <property role="bl$8n" value="JfXaG0ArqF/Bilateral" />
-      <property role="bl$8j" value="JfXaG0ArqF/Bilateral" />
-      <property role="bl$8u" value="JfXaG0AOie/Unconstraint" />
-      <property role="TrG5h" value="c1" />
-      <ref role="bqiko" node="5S14dUpPs0j" resolve="KUKALeft" />
-      <ref role="bh3iV" to="xsbx:4yM1uW6A3U2" resolve="frame_iiwa7_link_ee_origin" />
-      <ref role="bqI_4" node="3gyK6Xv09XI" resolve="cube" />
-      <ref role="bh3iU" node="3gyK6Xv09ZF" resolve="cubeSide1" />
-    </node>
-    <node concept="bh3i$" id="3gyK6Xv09Tc" role="ULfnI">
-      <property role="TrG5h" value="c2" />
-      <property role="bl$8j" value="JfXaG0ArqF/Bilateral" />
-      <property role="bl$8n" value="JfXaG0ArqF/Bilateral" />
-      <property role="bl$9E" value="JfXaG0ArqF/Bilateral" />
-      <ref role="bqiko" node="3gyK6XuNS2d" resolve="KUKARight" />
-      <ref role="bh3iV" to="xsbx:3gyK6XuNSzz" resolve="frame_iiwa14_link_ee_origin" />
-      <ref role="bqI_4" node="3gyK6Xv09XI" resolve="cube" />
-      <ref role="bh3iU" node="3gyK6Xv0a1P" resolve="cubeSide2" />
-    </node>
   </node>
   <node concept="btvZb" id="5S14dUpPuf0">
     <property role="TrG5h" value="Approach_Table" />
@@ -776,6 +798,34 @@
     </node>
     <node concept="b3D_K" id="5S14dUpPukd" role="btvX0">
       <ref role="b3D_P" node="5S14dUpPs0B" resolve="fDownTable" />
+    </node>
+  </node>
+  <node concept="ULbvm" id="6owOR_KUWA_">
+    <property role="TrG5h" value="CS1" />
+    <ref role="ULeGK" node="5S14dUpPrZK" resolve="TableWiping2" />
+    <node concept="mMO_8" id="6owOR_KWRIO" role="mMOCj">
+      <property role="TrG5h" value="testGuard1Wrench" />
+      <ref role="mMO_d" node="JfXaG0qO1F" resolve="ff1" />
+      <node concept="3eOSWO" id="6owOR_KWRIP" role="mN93n">
+        <node concept="mN5or" id="6owOR_KWRIQ" role="3uHU7B">
+          <property role="mNkMG" value="2" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KWRIR" role="3uHU7w">
+          <property role="$nhwW" value="2.0" />
+        </node>
+      </node>
+    </node>
+    <node concept="mMO_8" id="6owOR_KV4ei" role="mMOCj">
+      <property role="TrG5h" value="g2" />
+      <ref role="mMO_d" node="5S14dUpPs1m" resolve="c1" />
+      <node concept="3eOSWO" id="6owOR_KWtP6" role="mN93n">
+        <node concept="mN5or" id="6owOR_KVolE" role="3uHU7B">
+          <property role="mNkMG" value="2" />
+        </node>
+        <node concept="3b6qkQ" id="6owOR_KWtPH" role="3uHU7w">
+          <property role="$nhwW" value="2.0" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
